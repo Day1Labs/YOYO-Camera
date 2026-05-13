@@ -1,0 +1,980 @@
+// MARK: - File Naming Formats
+"camera_settings_file_naming" = "File Naming";
+"file_naming_standard" = "Standard Time";
+"file_naming_classic" = "Classic Index";
+"file_naming_daily" = "Day & Index";
+"file_naming_pro" = "Type & Time";
+"file_naming_custom" = "Custom Format";
+
+"file_naming_custom_desc" = "Use custom template";
+
+"file_naming_custom_format" = "Custom Format";
+"file_naming_variables" = "Available variables: {timestamp} {date} {time} {year} {month} {day} {hour} {minute} {second} {type} {format} {uuid} {index} (4-digit incremental)";
+"file_naming_format" = "File Naming Format";
+
+// MARK: - Time of Day
+"time_dawn" = "Dawn";
+"time_sunrise" = "Sunrise";
+"time_morning" = "Morning";
+"time_midday" = "Midday";
+"time_afternoon" = "Afternoon";
+"time_sunset" = "Sunset";
+"time_evening" = "Evening";
+"time_dusk" = "Dusk";
+"time_blue_hour" = "Blue Hour";
+"time_night" = "Night";
+
+
+// MARK: - Object Detection
+"objects_none" = "0 objects";
+"objects_count" = "%d objects: %@";
+
+// MARK: - Brightness Analysis
+"exposure_moderate" = "Exposure is moderate";
+"exposure_increase" = "Suggest increasing exposure +%.1f";
+"exposure_decrease" = "Suggest decreasing exposure %.1f";
+
+// MARK: - Camera Settings Menu
+"camera_settings_grid" = "Grid";
+"camera_settings_guidelines" = "Guidelines";
+"camera_settings_histogram" = "Histogram";
+"camera_settings_hdr" = "HDR";
+"camera_settings_save_original" = "Save Original";
+"camera_settings_save_gps" = "Save Location";
+"camera_settings_copyright" = "Copyright";
+"camera_settings_copyright_text" = "Copyright Text";
+"camera_settings_copyright_placeholder" = "Enter copyright information";
+"camera_settings_volume_button" = "Volume Button Capture";
+"camera_settings_timer" = "Timer";
+"camera_settings_aspect_ratio" = "Aspect Ratio";
+"camera_settings_automation" = "Task Master";
+"camera_settings_capture_format" = "Capture Format";
+"camera_settings_video_resolution" = "Video Resolution";
+"camera_settings_video_frame_rate" = "Video Frame Rate";
+"camera_settings_video_format" = "Video Format";
+"camera_settings_preview_latest_photo" = "Preview Latest Photo";
+
+// MARK: - Composition Guide Types
+// (Removed as icons are used for preview)
+
+// Photo Detail View
+"photo_detail_original" = "Original";
+"photo_detail_unfavorite" = "Unfavorite";
+"photo_detail_favorite" = "Favorite";
+"photo_detail_share" = "Share";
+"photo_detail_open_in_photos" = "Open in Photos";
+"photo_detail_delete_failed" = "Failed to delete photo";
+"photo_detail_unknown_filter" = "Unknown";
+
+// Photo Gallery
+"photos_title" = "Photos";
+"select_all" = "Select All";
+"deselect_all" = "Deselect All";
+"selected_count" = "Selected %d";
+"no_photos" = "No Photos";
+"gallery_temporarily_unavailable" = "Photo library temporarily unavailable";
+
+// Filter Gallery View
+"filter_gallery_favorites" = "Favorites";
+"filter_gallery_film_simulation" = "Film";
+"filter_gallery_import" = "Import";
+"no_favorite_filters" = "No Favorites";
+
+// Filter Import
+"filter_import_from_file" = "Import from File";
+"filter_import_from_url" = "Import from URL";
+"filter_import_from_url_title" = "Import Filter from URL";
+"filter_import_url_placeholder" = "Enter HTTPS link to LUT file";
+"filter_import_url_message" = "Only HTTPS links to .cube LUT files are supported";
+"filter_import_failed_title" = "Import Failed";
+"filter_import_confirm" = "OK";
+"filter_import_error_invalid_url" = "Invalid URL format";
+"filter_import_error_http_not_supported" = "HTTP is not supported, please use HTTPS";
+"filter_import_error_download_failed" = "Download failed";
+"filter_import_error_bad_response" = "Server returned an error";
+"filter_import_error_empty_data" = "Downloaded file is empty";
+"filter_import_error_unsupported_type" = "Only .cube format is supported";
+"filter_import_error_file_write_failed" = "Failed to save file";
+
+// Automation Filter Actions
+"automation_import_filter" = "Import Filter";
+
+// MARK: - AI Inspiration
+"ai_inspiration_title" = "AI Inspiration";
+"ai_inspiration_loading" = "AI is conceiving inspiration...";
+"ai_inspiration_detail" = "Inspiration Detail";
+"ai_inspiration_no_image" = "Unable to get current frame";
+"ai_inspiration_generate_failed" = "Failed to generate inspiration. Please try again later";
+"ai_inspiration_preview_tap_to_get" = "Tap image for inspiration";
+"ai_inspiration_preview_cancel_hint" = "Tap background to cancel";
+
+
+// AI Inspiration Service Errors
+"ai_inspiration_error_no_image" = "No image provided";
+"ai_inspiration_error_encoding" = "Image encoding failed";
+"ai_inspiration_error_not_logged_in" = "Please log in first";
+"ai_inspiration_error_insufficient_credits" = "Insufficient credits. Please subscribe to get more.";
+"ai_inspiration_error_invalid_response" = "Invalid server response";
+"ai_inspiration_error_server" = "Server error (%d)";
+"ai_inspiration_error_decoding" = "Data decoding failed";
+
+// AI History Inspiration
+"ai_inspiration_history_title" = "History";
+"ai_inspiration_history_empty" = "No history";
+"ai_inspiration_history_clear" = "Clear History";
+"ai_inspiration_history_clear_confirm" = "Are you sure you want to clear all history?";
+"automation_filter_importing" = "Importing filter...";
+"automation_filter_import_success" = "Filter imported: %@";
+"automation_filter_import_failed" = "Filter import failed";
+"automation_filter_already_exists" = "Filter already exists: %@";
+
+// MARK: - Filter Descriptions
+"filter_none_description" = "No filter effect";
+"filter_custom_description" = "Custom filter";
+"filter_vivid_description" = "Enhanced tones for overall texture";
+"filter_l_classic_description" = "LC classic colors with rich tones and deep contrast";
+"filter_h_master_description" = "H-Master natural colors with accurate reproduction and smooth skin tones";
+"filter_gr_description" = "GR street photography with vibrant hues and crisp sharp imagery";
+"filter_f_chrome_description" = "FC Fuji colors, simulating classic film direct output with transparent and storytelling tones";
+
+"filter_spring_description" = "Soft and fresh tones";
+"filter_breeze_description" = "Warm and bright atmosphere";
+"filter_dusk_description" = "Soft light of twilight";
+"filter_kyoto_description" = "Elegant and delicate colors";
+"filter_horizon_description" = "Cool and transparent visual effect";
+"filter_haze_description" = "Vintage hazy texture";
+"filter_dawn_description" = "Gentle tones like dawn";
+"filter_blossom_description" = "Vivid and intense colors";
+"filter_frost_description" = "Cold and clear tones";
+"filter_petal_description" = "Elegant and soft colors";
+"filter_oasis_description" = "Fresh and natural atmosphere";
+"filter_decisive_description" = "Classic black and white";
+"filter_fan_description" = "High contrast black and white";
+"filter_xihu_description" = "Elegant tones of Jiangnan water town";
+"filter_dali_description" = "Nostalgic warm film feel";
+"filter_fuji_description" = "Japanese fresh style";
+"filter_kamakura_description" = "Bright tones of coastal city";
+"filter_lisbon_description" = "Warm and bright Southern European style";
+"filter_faroe_description" = "Cool and ethereal Nordic atmosphere";
+"filter_marrakech_description" = "Rich vintage cinematic feel";
+"filter_golden_gate_description" = "Warmth like golden sunshine";
+"filter_joshua_description" = "Natural and soft colors";
+"filter_havana_description" = "Vintage faded nostalgic texture";
+"filter_dune_description" = "Warm and dry desert-like tones";
+
+// MARK: - Permissions
+"camera_permission_title" = "Camera Permission";
+"camera_permission_message" = "Please allow YOYO to access the camera in Settings.";
+
+// MARK: - Permission Management
+"permission_camera_title" = "Camera";
+"permission_microphone_title" = "Microphone";
+"permission_photo_library_title" = "Photo Library";
+"permission_location_title" = "Location";
+
+"permission_camera_description" = "Camera access is needed to capture photos and videos";
+"permission_microphone_description" = "Microphone access is needed to record audio in videos";
+"permission_photo_library_description" = "Photo library access is needed to save and browse photos";
+"permission_location_description" = "Location access is needed to tag photos with location data";
+
+"permission_camera_denied" = "Camera access was denied. Please enable it in Settings.";
+"permission_microphone_denied" = "Microphone access was denied. Please enable it in Settings.";
+"permission_photo_library_denied" = "Photo library access was denied. Please enable it in Settings.";
+"permission_location_denied" = "Location access was denied. Please enable it in Settings.";
+
+"permission_denied_title" = "Permission Denied";
+"permission_open_settings" = "Open Settings";
+"permission_authorize_button" = "Continue";
+
+"permission_settings_title" = "Permissions";
+"permission_settings_status" = "Permission Status";
+"permission_settings_footer" = "Some features require specific permissions to work properly. Tap an item to modify its permission.";
+
+"permission_status_authorized" = "Authorized";
+"permission_status_limited" = "Limited";
+"permission_status_denied" = "Denied";
+"permission_status_restricted" = "Restricted";
+"permission_status_not_determined" = "Not Set";
+
+"permission_limited_access_title" = "Limited Photo Access";
+"permission_limited_access_message" = "You have limited access to photos. You can select more photos or grant full access.";
+"permission_select_more_photos" = "Select More Photos";
+
+// MARK: - Permission Onboarding
+"onboarding_get_started" = "Continue";
+"onboarding_complete" = "Start Using";
+
+
+// MARK: - Photo Info Sheet
+"photo_info_aesthetics_score" = "Aesthetics Score";
+"photo_info_photo_info" = "Photo Information";
+"photo_info_capture_time" = "Capture Time";
+"photo_info_filter" = "Filter";
+"photo_info_aperture" = "Aperture";
+"photo_info_shutter_speed" = "Shutter Speed";
+"photo_info_focal_length" = "Focal Length";
+"photo_info_focal_length_35mm" = "35mm Equiv. Focal Length";
+"photo_info_lens_model" = "Lens";
+"photo_info_exposure_bias" = "Exposure Compensation";
+"photo_info_metering_mode" = "Metering Mode";
+"photo_info_metering_average" = "Average";
+"photo_info_metering_center_weighted" = "Center-Weighted";
+"photo_info_metering_spot" = "Spot";
+"photo_info_metering_pattern" = "Pattern";
+"photo_info_metering_partial" = "Partial";
+"photo_info_brightness" = "Brightness";
+"photo_info_manufacturer" = "Manufacturer";
+"photo_info_model" = "Model";
+"photo_info_dimensions" = "Dimensions";
+"photo_info_white_balance" = "White Balance";
+"photo_info_file_size" = "File Size";
+"photo_info_color_space" = "Color Space";
+"photo_info_color_depth" = "Color Depth";
+"photo_info_flash" = "Flash";
+"photo_info_file_name" = "File Name";
+"photo_info_duration" = "Duration";
+"photo_info_main_camera" = "Main Camera";
+"photo_info_ultra_wide_camera" = "Ultra Wide Camera";
+"photo_info_telephoto_camera" = "Telephoto Camera";
+
+// MARK: - Automation
+"automation_default_rule_title" = "Task";
+"automation_task_master_title" = "Task Master";
+"automation_rule_name_placeholder" = "Task Name";
+"automation_if_title" = "IF";
+"automation_then_title" = "THEN";
+"automation_create_title" = "Create Task";
+"automation_edit_title" = "Edit Task";
+"automation_confirm_pending_title" = "Pending";
+"automation_select_left_category" = "Please select a category";
+"automation_history_title" = "Execution History";
+
+// ShareError
+"share_error_not_logged_in" = "Please sign in first";
+"share_error_invalid_response" = "Invalid server response";
+"share_error_server" = "Server error (%d)";
+"share_error_network" = "Network connection failed";
+"share_error_decoding" = "Data parsing failed";
+"share_error_code_not_found" = "Code not found or expired";
+
+// Share
+"automation_share_title" = "Share Task";
+"automation_share_copy" = "Copy Code";
+"automation_share_code_message" = "Share Code: %@\nSend this code to friends to let them import this task";
+"automation_share_error_title" = "Share Failed";
+"automation_share_login_required" = "Please sign in to share tasks";
+
+// Import
+"automation_import_by_code_title" = "Import by Code";
+"automation_import_code_placeholder" = "Enter 6-digit code";
+"automation_import_code_message" = "Enter a share code to import a task";
+"automation_import_confirm" = "Import";
+"automation_import_error_title" = "Import Failed";
+"automation_import_success_title" = "Import Successful";
+"automation_import_success_message" = "Task has been added to your list";
+
+// Scene Names
+"scene_general" = "General";
+"scene_portrait" = "Portrait";
+"scene_group" = "Group";
+"scene_pet" = "Pet";
+"scene_wildlife" = "Wildlife";
+"scene_plant" = "Plant";
+"scene_food" = "Food";
+"scene_sports" = "Sports";
+"scene_vehicle" = "Vehicle";
+"scene_cityscape" = "Cityscape";
+"scene_interior" = "Interior";
+"scene_still_life" = "Still Life";
+"scene_technology" = "Technology";
+
+// MARK: - Settings
+"settings_title" = "Settings";
+"settings_storage_management" = "Storage Management";
+"settings_privacy_policy" = "Privacy Policy";
+"settings_user_agreement" = "User Agreement";
+"settings_apple_login" = "Sign in with Apple";
+"settings_apple_logout" = "Sign out";
+"settings_delete_account" = "Delete Account";
+"settings_delete_account_confirm_title" = "Delete Account?";
+"settings_delete_account_confirm_message" = "All data associated with this account (including shared tasks) will be permanently deleted. This action cannot be undone.";
+"settings_about_yoyo" = "About YOYO";
+"settings_contact_us" = "Contact Us";
+"settings_rate_app" = "Rate Us";
+"settings_system_permissions" = "System Permissions";
+"settings_follow_xiaohongshu" = "Follow on Xiaohongshu";
+"settings_follow_x" = "Follow on X";
+"settings_version" = "Version %@";
+"settings_group_account" = "Account";
+"settings_group_general" = "General";
+"settings_group_about" = "About";
+"settings_group_camera" = "Camera";
+"settings_group_support" = "Support";
+"settings_group_developer" = "Developer";
+"settings_developer_mode" = "Developer Mode";
+"settings_follow_us" = "Follow Us";
+
+// MARK: - Storage Settings
+"settings_storage_device" = "Device Storage";
+"settings_storage_total" = "Total Space";
+"settings_storage_available" = "Available Space";
+"settings_storage_app" = "App Storage";
+"settings_storage_app_usage" = "App Usage";
+"settings_storage_documents" = "Documents";
+"settings_storage_library" = "Library";
+"settings_storage_cache" = "Cache";
+"settings_storage_temp" = "Temporary Files";
+"settings_storage_no_files" = "No Files";
+"settings_storage_delete_confirm" = "Are you sure you want to delete %@?";
+"settings_storage_actions" = "Actions";
+"settings_storage_clear_cache" = "Clear Cache";
+"settings_storage_clear" = "Clear";
+"settings_storage_clear_confirm" = "Are you sure you want to clear %@ of cache?";
+
+// MARK: - Automation Action Display
+"action_set_zoom" = "Set Zoom";
+"action_multiply_zoom" = "Zoom Factor";
+"action_clamp_zoom" = "Clamp Zoom";
+"action_set_exposure_bias" = "Set Exposure Bias";
+"action_add_exposure_bias" = "Add Exposure Bias";
+"action_set_flash_mode" = "Set Flash Mode";
+"action_set_flash_mode_if_auto" = "Auto Set Flash";
+"action_focus_on_subject" = "Focus on Subject";
+"action_focus_on_rule_of_thirds" = "Focus on Rule of Thirds";
+"action_set_filter" = "Set Filter";
+"action_set_white_balance" = "Set White Balance";
+"action_set_white_balance_temperature" = "Set Color Temp";
+"action_set_white_balance_tint" = "Set Tint";
+"action_adjust_white_balance_temperature" = "Adjust Color Temp";
+"action_adjust_white_balance_tint" = "Adjust Tint";
+"action_set_iso" = "Set ISO";
+"action_adjust_iso" = "Adjust ISO";
+"action_clamp_iso" = "Clamp ISO";
+"action_set_shutter_speed" = "Set Shutter Speed";
+"action_multiply_shutter_speed" = "Shutter Speed Factor";
+"action_clamp_shutter_speed" = "Clamp Shutter Speed";
+"action_show_toast" = "Show Toast";
+
+"action_detail_focus_on_subject" = "Auto focus to subject";
+"action_detail_focus_on_rule_of_thirds" = "Focus to Rule of Thirds points";
+"unit_kelvin_tint" = "%dK, Tint %d";
+"toast_prefix" = "Toast: ";
+"toast_type_success" = "Success";
+"toast_type_error" = "Error";
+"toast_type_warning" = "Warning";
+"toast_type_info" = "Info";
+
+"summary_set_zoom" = "Set Zoom %@";
+"summary_multiply_zoom" = "Zoom ×%@";
+"summary_clamp_zoom" = "Clamp Zoom";
+"summary_exposure_bias" = "Exposure Bias";
+"summary_increase_exposure" = "Increase Exposure %@";
+"summary_decrease_exposure" = "Decrease Exposure %@";
+"summary_flash_mode" = "Flash Mode %@";
+"summary_focus_on_subject" = "Focus on Subject";
+"summary_focus_on_rule_of_thirds" = "Focus on Rule of Thirds";
+"summary_filter" = "Filter %@";
+"summary_white_balance" = "White Balance";
+"summary_set_white_balance_temperature" = "Temp %dK";
+"summary_set_white_balance_tint" = "Tint %d";
+"summary_adjust_white_balance_temperature" = "Temp %+.0fK";
+"summary_adjust_white_balance_tint" = "Tint %+.0f";
+"summary_set_iso" = "ISO %@";
+"summary_increase_iso" = "Increase ISO %@";
+"summary_decrease_iso" = "Decrease ISO %@";
+"summary_clamp_iso" = "Clamp ISO Range";
+"summary_set_shutter_speed" = "Shutter %@";
+"summary_multiply_shutter_speed" = "Shutter ×%@";
+"summary_clamp_shutter_speed" = "Clamp Shutter Range";
+"summary_toast" = "Toast: %@";
+
+// MARK: - Automation Condition Display
+"condition_scene_is" = "Scene is";
+"condition_scene_is_not" = "Scene is not";
+"condition_scene_in" = "Scene in list";
+"condition_lighting_is" = "Lighting is";
+"condition_lighting_is_not" = "Lighting is not";
+"condition_lighting_in_list" = "Lighting in list";
+"condition_subject_size_below" = "Subject size below";
+"condition_subject_size_above" = "Subject size above";
+"condition_rule_of_thirds_alignment_below" = "Subject not aligned with Rule of Thirds";
+"condition_rule_of_thirds_alignment_above" = "Subject aligned with Rule of Thirds";
+"condition_frame_generic" = "Frame";
+"condition_background" = "Background";
+"condition_subject" = "Subject";
+"condition_subject_type_is" = "Subject type is";
+"condition_object_count_above" = "Object count above";
+"condition_object_count_equals" = "Object count equals";
+"condition_has_object" = "Contains object";
+"condition_motion_level_above" = "Motion level above";
+"condition_motion_level_below" = "Motion level below";
+"condition_highlight_ratio_above" = "Highlight ratio above";
+"condition_highlight_ratio_below" = "Highlight ratio below";
+"condition_time_in_range" = "Time in range";
+"condition_time_after" = "Time after";
+"condition_time_before" = "Time before";
+"condition_weekday_is" = "Weekday is";
+"condition_weekday_in" = "Weekday in list";
+"condition_date_is" = "Date is";
+"condition_nth_weekday_of_month" = "Nth Weekday of Month";
+"condition_month_is" = "Month is";
+"condition_month_in" = "Month in list";
+"condition_near_location" = "Near location";
+"condition_inside_region" = "Inside region";
+"condition_outside_region" = "Outside region";
+"condition_altitude_above" = "Altitude above";
+"condition_altitude_below" = "Altitude below";
+"condition_altitude_in_range" = "Altitude in range";
+"condition_color_temperature_is" = "Color Temp is";
+"condition_color_temperature_is_not" = "Color Temp is not";
+"condition_saturation_above" = "Saturation above";
+"condition_saturation_below" = "Saturation below";
+"condition_brightness_above" = "Brightness above";
+"condition_brightness_below" = "Brightness below";
+"condition_dominant_color_count_equals" = "Dominant color count equals";
+"condition_dominant_color_count_above" = "Dominant color count above";
+"condition_dominant_color_count_below" = "Dominant color count below";
+"condition_before_capture" = "Before capture";
+"condition_after_capture" = "After capture";
+
+"detail_not_aligned" = "Not Aligned";
+"detail_aligned" = "Aligned";
+"detail_bias_left" = "Bias Left";
+"detail_bias_right" = "Bias Right";
+"detail_bias_top" = "Bias Top";
+"detail_bias_bottom" = "Bias Bottom";
+"detail_balanced" = "Balanced";
+"detail_unbalanced" = "Unbalanced";
+"detail_balance_good" = "Good Balance";
+"detail_strong_leading_lines" = "Strong Leading Lines";
+"detail_simple" = "Simple";
+"detail_moderate" = "Moderate";
+"detail_complex" = "Complex";
+"detail_obvious" = "Obvious";
+"detail_subject_face" = "Portrait";
+"detail_subject_salient_region" = "Salient Region";
+"detail_overexposed" = "Overexposed";
+"detail_before_capture_desc" = "When preparing to capture";
+"detail_after_capture_desc" = "When capture finished";
+
+"summary_scene_is" = "Scene is %@";
+"summary_scene_is_not" = "Scene is not %@";
+"summary_scene_in" = "Scene in [%@]";
+"summary_lighting_is" = "Lighting is %@";
+"summary_lighting_is_not" = "Lighting is not %@";
+"summary_lighting_in" = "Lighting in [%@]";
+"summary_subject_size_below" = "Subject < %@";
+"summary_subject_size_above" = "Subject > %@";
+"summary_rule_of_thirds_alignment_below" = "Subject not aligned with Rule of Thirds";
+"summary_rule_of_thirds_alignment_above" = "Subject aligned with Rule of Thirds";
+"summary_frame_bias_left" = "Frame Bias Left";
+"summary_frame_bias_right" = "Frame Bias Right";
+"summary_frame_bias_top" = "Frame Bias Top";
+"summary_frame_bias_bottom" = "Frame Bias Bottom";
+"summary_frame_balanced" = "Frame Balanced";
+"summary_visual_balance_below" = "Frame Unbalanced";
+"summary_visual_balance_above" = "Frame Well Balanced";
+"summary_leading_line_strength_above" = "Leading Lines >%@";
+"summary_background_simple" = "Simple Background";
+"summary_background_moderate" = "Moderate Background";
+"summary_background_complex" = "Complex Background";
+"summary_has_main_subject" = "Subject Obvious";
+"summary_subject_type_is" = "Subject type is %@";
+"summary_object_count_above" = "Objects > %@";
+"summary_object_count_equals" = "Objects = %@";
+"summary_has_object" = "Contains %@";
+"summary_motion_level_above" = "Motion > %@";
+"summary_motion_level_below" = "Motion < %@";
+"summary_highlight_ratio_above" = "Highlights > %@";
+"summary_highlight_ratio_below" = "Highlights < %@";
+"summary_is_overexposed" = "Overexposed";
+"summary_weekday_is" = "Weekday %@";
+"summary_weekday_in" = "Weekday in [%@]";
+"summary_date_is" = "%@ %@";
+"summary_nth_weekday_of_month" = "%@ Nth %@ Weekday %@";
+"summary_month_in" = "Month in [%@]";
+"summary_near_location" = "Near (%.4f, %.4f) %dm";
+"summary_inside_region" = "Inside (%.4f, %.4f) %dm";
+"summary_outside_region" = "Outside (%.4f, %.4f) %dm";
+"summary_altitude_above" = "Altitude > %@m";
+"summary_altitude_below" = "Altitude < %@m";
+"summary_altitude_in_range" = "Altitude %@-%@m";
+"summary_color_temperature_is" = "Color Temp is %@";
+"summary_color_temperature_is_not" = "Color Temp is not %@";
+"summary_saturation_above" = "Saturation > %@";
+"summary_saturation_below" = "Saturation < %@";
+"summary_brightness_above" = "Brightness > %@";
+"summary_brightness_below" = "Brightness < %@";
+"summary_dominant_color_count_equals" = "Dominant Colors = %@";
+"summary_dominant_color_count_above" = "Dominant Colors > %@";
+"summary_dominant_color_count_below" = "Dominant Colors < %@";
+"summary_before_capture" = "Before Capture";
+"summary_after_capture" = "After Capture";
+
+// MARK: - Recommended Tasks
+"rec_task_portrait_title" = "Smart Portrait Optimization";
+"rec_task_portrait_desc" = "Automatically adjust focal length and exposure for portraits, and enable face focus";
+"rec_task_city_title" = "Cityscape Mode";
+"rec_task_city_desc" = "Switch to wide angle and optimize exposure for city buildings or street views";
+"rec_task_food_title" = "Food Enhancement";
+"rec_task_food_desc" = "Enhance exposure and apply warm filters to make food look more appetizing";
+"rec_task_low_light_title" = "Low Light Compensation";
+"rec_task_low_light_desc" = "Automatically boost exposure and enable flash assistance in low light";
+"rec_task_pet_title" = "Pet Snap";
+"rec_task_pet_desc" = "Zoom in to capture details and quickly focus on subjects when photographing pets";
+"rec_task_sports_title" = "Sports Snap";
+"rec_task_sports_desc" = "Use high shutter speed to freeze moments in sports scenes";
+"rec_task_flower_title" = "Flower Close-up";
+"rec_task_flower_desc" = "Automatically zoom in to highlight details when photographing flowers";
+"rec_task_overexposure_title" = "Overexposure Correction";
+"rec_task_overexposure_desc" = "Automatically lower exposure when severe overexposure is detected";
+
+"rec_task_sunset_title" = "Sunset Atmosphere";
+"rec_task_sunset_desc" = "At sunset, automatically adjust exposure and apply warm filters to capture the most beautiful glow.";
+
+"condition_type_scene" = "Scene Type";
+"condition_type_lighting" = "Lighting Condition";
+"condition_type_exposure_status" = "Exposure Status";
+"condition_type_color_temp" = "Color Temp";
+
+"action_type_zoom" = "Adjust Zoom";
+"action_type_exposure" = "Exposure Bias";
+"action_type_focus" = "Focus Subject";
+"action_type_filter" = "Filter";
+"action_type_flash" = "Flash";
+"action_type_shutter" = "Shutter Speed";
+"action_type_toast" = "Toast";
+
+"scene_city_building" = "City, Building";
+"scene_pet_animal" = "Pet, Animal";
+"lighting_dark_dim" = "Dark or Dim";
+"color_temp_warm" = "Warm";
+"color_temp_cool" = "Cool";
+"color_temp_neutral" = "Neutral";
+"exposure_overexposed" = "Overexposed";
+"subject_animal" = "Animal";
+"filter_golden_gate" = "Golden Gate";
+"filter_faroe" = "Faroe";
+"toast_corrected" = "Corrected";
+"toast_exposure_reduced" = "Exposure Reduced";
+
+"rec_task_use_this" = "Use This Task";
+"rec_task_selection_title" = "Recommended Tasks";
+
+// MARK: - Automation Settings
+"automation_recommended_tab" = "Recommended";
+"automation_my_tab" = "My Tasks";
+"automation_no_tasks" = "No Tasks";
+
+// MARK: - Automation Location Picker
+"automation_search_location" = "Search Location";
+"automation_unknown_location" = "Unknown Location";
+"automation_selected_location" = "Selected Location";
+"automation_trigger_range" = "Trigger Range";
+"automation_confirm_selection" = "Confirm Selection";
+
+// MARK: - Automation Condition Time
+"automation_condition_after" = "After";
+"automation_condition_before" = "Before";
+"automation_condition_altitude_above" = "Altitude Above";
+"automation_condition_altitude_below" = "Altitude Below";
+
+// MARK: - Automation Cards
+"automation_execute_once" = "Execute Once";
+"automation_require_confirmation" = "Require Confirmation";
+"automation_copy_share_code" = "Copy Share Code: %@";
+"automation_sharing" = "Sharing...";
+"automation_share_task" = "Share Task";
+"automation_reshare" = "Reshare";
+"automation_clone_task" = "Clone Task";
+"automation_delete_task" = "Delete Task";
+"automation_share_failed" = "Share Failed";
+
+// MARK: - Automation Picker
+"automation_select_category" = "Please select a category";
+"automation_start_time" = "Start Time";
+"automation_end_time" = "End Time";
+"automation_select_time" = "Select Time";
+"automation_time" = "Time";
+"automation_condition" = "Condition";
+"automation_select_weekday" = "Select Weekday";
+"automation_select_date" = "Select Date";
+"automation_date_rule" = "Select Date Rule";
+"automation_month" = "Month";
+"automation_nth" = "Nth";
+"automation_weekday" = "Weekday";
+"automation_select_altitude" = "Select Altitude";
+"automation_altitude_meters" = "Altitude (meters)";
+"automation_color_temperature_range" = "Color Temperature (2000K - 8000K)";
+"automation_tint_range" = "Tint (-150 - 150)";
+"automation_iso_value" = "ISO Value";
+"automation_hint" = "Hint";
+"automation_positive_increase_negative_decrease" = "Positive increases, negative decreases";
+"automation_shutter_speed" = "Shutter Speed";
+"automation_numerator" = "Numerator";
+"automation_denominator" = "Denominator";
+"automation_message_type" = "Message Type";
+"automation_message_content" = "Message Content";
+"automation_display_duration_seconds" = "Display Duration (seconds)";
+
+
+// MARK: - Automation Time Options
+"automation_time_common_periods" = "Common Time Periods";
+"automation_time_common_weekdays" = "Common Weekdays";
+"automation_time_custom_range" = "Custom Time Range";
+"automation_time_custom_point" = "Custom Time Point (After/Before)";
+"automation_time_custom_weekday" = "Custom Weekday";
+"automation_time_custom_date" = "Custom Date";
+"automation_time_nth_weekday" = "Nth Weekday of Month";
+"automation_select_location" = "Select Location";
+
+// MARK: - Automation Altitude Options
+"automation_altitude_custom" = "Custom Altitude";
+"automation_altitude_meters_unit" = "Altitude (meters)";
+"automation_altitude_input_placeholder" = "Enter altitude value";
+"automation_altitude_condition" = "Condition";
+
+// MARK: - Automation Time Pickers
+"automation_hour" = "Hour";
+"automation_minute" = "Minute";
+"automation_month" = "Month";
+"automation_day" = "Day";
+
+// MARK: - Automation White Balance Options
+"automation_white_balance_presets" = "Presets";
+"automation_white_balance_adjustments" = "Adjustments";
+"automation_white_balance_title" = "Set White Balance";
+
+// MARK: - Automation ISO Options
+"automation_iso_common" = "Common ISO";
+"automation_iso_adjustments" = "Adjustments";
+"automation_iso_mode_set" = "Set To";
+"automation_iso_mode_adjust" = "Relative Adjust";
+"automation_iso_input_set" = "Enter ISO Value";
+"automation_iso_input_adjust" = "Enter Adjustment";
+"automation_iso_typical_values" = "Typical values: 100, 200, 400, 800, 1600, 3200";
+"automation_mode" = "Mode";
+
+// MARK: - Automation Shutter Options
+"automation_shutter_common" = "Common Shutter";
+"automation_shutter_title" = "Set Shutter Speed";
+"automation_shutter_numerator" = "Numerator";
+"automation_shutter_denominator" = "Denominator";
+
+// MARK: - Automation Filter Options
+"automation_filter_import_from_url" = "Import from URL";
+"automation_filter_import_url" = "Import Filter from URL";
+"automation_filter_builtin" = "Built-in Filters";
+"automation_filter_custom_filters" = "Custom Filters";
+"automation_filter_url_title" = "Filter URL";
+"automation_filter_url_placeholder" = "Enter HTTPS link";
+"automation_filter_custom_name" = "Custom Name (Optional)";
+"automation_filter_custom_name_placeholder" = "Leave empty to use filename";
+"automation_filter_url_message" = "Only HTTPS links to .cube LUT files are supported";
+
+// MARK: - Lighting Conditions
+"lighting_condition_dark" = "Dark";
+"lighting_condition_dim" = "Dim";
+"lighting_condition_normal" = "Normal";
+"lighting_condition_bright" = "Bright";
+"lighting_condition_glare" = "Glare";
+
+// MARK: - Automation Color Options
+"automation_color_temperature" = "Color Temperature";
+"automation_color_saturation" = "Saturation";
+"automation_color_brightness" = "Brightness";
+
+// MARK: - Automation Toast Options
+"automation_toast_common" = "Common Messages";
+"automation_toast_success_complete_message" = "Operation Complete";
+"automation_toast_warning_light_message" = "Low Light";
+"automation_toast_info_composition_message" = "Pay Attention to Composition";
+"automation_toast_custom_message" = "Custom Message";
+"automation_toast_custom_title" = "Custom Toast Message";
+"automation_toast_type" = "Type";
+"automation_toast_message_content" = "Message Content";
+"automation_toast_input_placeholder" = "Enter message text";
+"automation_toast_duration" = "Display Duration (seconds)";
+
+// MARK: - Automation Formatters
+"automation_weekday_sunday" = "Sunday";
+"automation_weekday_monday" = "Monday";
+"automation_weekday_tuesday" = "Tuesday";
+"automation_weekday_wednesday" = "Wednesday";
+"automation_weekday_thursday" = "Thursday";
+"automation_weekday_friday" = "Friday";
+"automation_weekday_saturday" = "Saturday";
+
+"automation_month_january" = "January";
+"automation_month_february" = "February";
+"automation_month_march" = "March";
+"automation_month_april" = "April";
+"automation_month_may" = "May";
+"automation_month_june" = "June";
+"automation_month_july" = "July";
+"automation_month_august" = "August";
+"automation_month_september" = "September";
+"automation_month_october" = "October";
+"automation_month_november" = "November";
+"automation_month_december" = "December";
+
+"automation_toast_success" = "Success";
+"automation_toast_info" = "Info";
+"automation_toast_warning" = "Warning";
+"automation_toast_error" = "Error";
+
+"automation_execution_unlimited" = "Unlimited";
+"automation_execution_seconds" = "%ds";
+"automation_execution_minutes" = "%dm";
+"automation_execution_hours" = "%dh";
+"automation_execution_days" = "%dd";
+
+// MARK: - Automation Interval Picker
+"automation_interval_min_label" = "5s";
+"automation_interval_max_label" = "1d";
+"automation_interval_minutes_seconds" = "%dm %ds";
+"automation_interval_hours_minutes" = "%dh %dm";
+
+// MARK: - Automation Editor
+"automation_condition_logic_all" = "All";
+"automation_condition_logic_any" = "Any";
+"automation_condition_logic_all_desc" = "Task will run automatically when all conditions below are met. Without conditions, task must be run manually";
+"automation_condition_logic_any_desc" = "Task will run automatically when any condition below is met. Without conditions, task must be run manually";
+"automation_actions_prompt" = "What actions to perform?";
+"automation_add_action" = "Then";
+"automation_execution_frequency" = "Execution Frequency";
+"automation_execution_frequency_desc" = "Limit task execution frequency to avoid repeated triggers";
+"automation_confirm_button" = "Confirm";
+"automation_logic_and" = "And";
+"automation_logic_or" = "Or";
+"automation_share_success_title" = "Share Successful";
+"automation_share_success_desc" = "Others can import this automation using this code";
+"automation_share_copy_code" = "Copy Share Code";
+"automation_import_title" = "Import Task";
+"automation_import_input_code" = "Enter 6-digit share code";
+"automation_trigger_automatic" = "Automatic Trigger";
+"automation_trigger_manual" = "Manual Trigger";
+"automation_trigger_confirmed" = "Confirmed Execution";
+"automation_trigger_cancelled" = "Cancelled";
+"automation_history_empty" = "No execution records";
+"automation_execution_details" = "Execution Details";
+"automation_trigger_type" = "Trigger Type:";
+"automation_trigger_conditions" = "Trigger Conditions";
+"automation_executed_actions" = "Executed Actions";
+"time_just_now" = "Just now";
+"time_minutes_ago" = "%d minutes ago";
+"time_hours_ago" = "%d hours ago";
+"time_days_ago" = "%d days ago";
+"time_today" = "Today";
+"time_yesterday" = "Yesterday";
+"category_scene" = "Scene";
+"category_lighting" = "Lighting";
+"category_composition" = "Composition";
+"category_subject" = "Subject";
+"category_motion" = "Motion";
+"category_exposure_condition" = "Exposure";
+"category_color" = "Color";
+"category_time" = "Time";
+"category_location" = "Location";
+"category_altitude" = "Altitude";
+"category_capture" = "Capture";
+"category_zoom" = "Zoom";
+"category_exposure_action" = "Exposure";
+"category_flash" = "Flash";
+"category_focus" = "Focus";
+"category_filter" = "Filter";
+"category_white_balance" = "White Balance";
+"category_iso" = "ISO";
+"category_shutter" = "Shutter";
+"category_toast" = "Toast";
+
+// MARK: - AI Darkroom
+"ai_darkroom_title" = "AI Darkroom";
+"ai_darkroom_processing" = "AI processing...";
+"ai_darkroom_portrait_enhance" = "Portrait Enhance";
+"ai_darkroom_id_photo" = "ID Photo";
+"ai_darkroom_professional_photo" = "Professional Photo";
+"ai_darkroom_social_avatar" = "Social Avatar";
+"ai_darkroom_remove_objects" = "Remove Objects";
+"ai_darkroom_blur_repair" = "Blur Repair";
+"ai_darkroom_color_grading" = "Color Grading";
+"ai_darkroom_fix_closed_eyes" = "Fix Closed Eyes";
+
+// MARK: - ISO Presets
+"iso_preset_low_noise" = "Low Noise";
+"iso_preset_balanced" = "Balanced";
+"iso_preset_high" = "High ISO";
+"iso_preset_extreme" = "Extreme";
+"iso_preset_low_noise_desc" = "Prioritizes image quality with minimal noise";
+"iso_preset_balanced_desc" = "Balances noise and sensitivity for general use";
+"iso_preset_high_desc" = "Higher sensitivity for low light conditions";
+"iso_preset_extreme_desc" = "Maximum sensitivity for very dark environments";
+
+// MARK: - Shutter Speed Presets
+"shutter_preset_handheld" = "Handheld";
+"shutter_preset_stable" = "Stable Support";
+"shutter_preset_tripod" = "Tripod";
+"shutter_preset_long_exposure" = "Long Exposure";
+"shutter_preset_handheld_desc" = "For handheld shooting (≥ 1/60s)";
+"shutter_preset_stable_desc" = "For stable support shooting (≥ 1/30s)";
+"shutter_preset_tripod_desc" = "For tripod shooting (≥ 1/15s)";
+"shutter_preset_long_exposure_desc" = "For long exposure photography (≥ 1/4s)";
+
+// MARK: - Language
+"settings_language" = "Language";
+"system_default" = "System Default";
+
+// MARK: - Common
+"common_on" = "On";
+"common_off" = "Off";
+"common_preview" = "Preview";
+"common_custom" = "Custom";
+"common_unknown" = "Unknown";
+"common_cancel" = "Cancel";
+"common_done" = "Done";
+"common_delete" = "Delete";
+"common_select" = "Select";
+"common_settings" = "Settings";
+"common_auto" = "Auto";
+"common_login" = "Sign In";
+
+// MARK: - Frame Settings
+"frame_settings_device_model" = "Device Model";
+"frame_settings_exif" = "EXIF";
+"frame_settings_apple_icon" = "Apple Icon";
+"frame_settings_date" = "Date";
+"frame_settings_time" = "Time";
+"frame_settings_location" = "Location";
+"frame_settings_festival_watermark" = "Festival Watermark";
+
+// MARK: - Audio Settings
+"audio_settings_title" = "Audio";
+"audio_settings_noise_reduction" = "Noise Reduction";
+"audio_settings_noise_reduction_desc" = "Enable hardware-level audio processing for clearer sound";
+"audio_settings_pickup_pattern" = "Pickup Pattern";
+"audio_pickup_ambient" = "Ambient";
+"audio_pickup_voice" = "Voice";
+"audio_pickup_voice_enhanced" = "Voice Enhanced";
+"audio_pickup_ambient_desc" = "Omnidirectional - capture all surrounding sounds";
+"audio_pickup_voice_desc" = "Cardioid - focus on front sounds, reduce background noise";
+"audio_pickup_voice_enhanced_desc" = "Subcardioid - enhanced focus on speaker";
+"audio_pickup_not_supported" = "Not supported on this device";
+
+// MARK: - Error Descriptions
+"gallery_error_permission_denied" = "Photo library access is required to load photos";
+"gallery_error_network_unavailable" = "Network unavailable, cannot load iCloud photos";
+"gallery_error_asset_not_found" = "Photo asset not found";
+
+"save_error_missing_dependencies" = "Save service is missing required dependencies";
+"save_error_failed" = "Save failed: %@";
+
+"album_error_creation_failed" = "Failed to create YOYO album";
+"album_error_photo_save_failed" = "Failed to save photo to album";
+"album_error_photo_delete_failed" = "Failed to delete photo from album";
+"album_error_permission_denied" = "Photo library permission denied";
+"album_error_asset_not_found" = "Photo asset not found";
+"album_error_video_save_failed" = "Failed to save video to album";
+
+// MARK: - Photo Preview
+"photo_preview_load_failed" = "Load Failed";
+"photo_preview_retry" = "Retry";
+
+// MARK: - Camera Preview
+"camera_focus_unlocked" = "Focus Unlocked";
+"camera_focus_locked" = "Focus & Exposure Locked";
+"camera_filter_intensity_format" = "%@ %d%%";
+"camera_exposure_value_format" = "%.1f EV";
+
+// MARK: - Capture Errors
+"capture_error_init_failed" = "Camera Unavailable";
+"capture_error_insufficient_storage" = "Insufficient Storage";
+"capture_error_recording_failed" = "Failed to Start Recording";
+"capture_error_processing_failed" = "Processing Failed, Please Try Again";
+"capture_error_save_timeout" = "Save Timed Out, Please Try Again";
+"capture_error_capture_timeout" = "Capture Timed Out, Please Try Again";
+"capture_error_unknown" = "An unknown error occurred";
+
+// MARK: - Privacy & Analytics
+"settings_privacy_analytics" = "Analytics & Improvement";
+"settings_privacy_analytics_description" = "Help improve YOYO by sharing anonymous usage data. This includes feature usage, app stability, and performance metrics. No photos or personal information are ever collected.";
+"settings_privacy_data_collection" = "Share Analytics Data";
+
+// MARK: - Feature Tutorial
+"tutorial_filter_favorite_desc" = "Long press non-film filters to favorite or unfavorite";
+"tutorial_swipe_filter_title" = "Switch Filters";
+"tutorial_swipe_filter_desc" = "Swipe left or right in the viewfinder to quickly switch filters";
+"tutorial_filter_intensity_title" = "Adjust Filter Intensity";
+"tutorial_filter_intensity_desc" = "Swipe up or down on the left side of the viewfinder to adjust filter intensity";
+"tutorial_exposure_title" = "Adjust Exposure";
+"tutorial_exposure_desc" = "Swipe up or down in the center of the viewfinder to adjust exposure compensation";
+"tutorial_zoom_title" = "Adjust Zoom";
+"tutorial_zoom_desc" = "Swipe up or down on the right side of the viewfinder to adjust zoom level";
+"tutorial_got_it" = "Got It";
+"tutorial_skip" = "Skip";
+"tutorial_next" = "Next";
+"tutorial_start_using" = "Start Using";
+"tutorial_area_left" = "Left";
+"tutorial_area_center" = "Center";
+"tutorial_area_right" = "Right";
+
+// MARK: - Camera Control Drawer Tutorial
+"tutorial_parameter_drawer_title" = "Camera Parameters";
+"tutorial_parameter_drawer_desc" = "Swipe down on the left side of the control bar to open the panel and switch to the Params tab";
+"tutorial_quick_task_title" = "Quick Tasks";
+"tutorial_quick_task_desc" = "Swipe down on the right side of the control bar to open the panel and switch to the Tasks tab";
+"tutorial_area_control_left" = "Control Left";
+"tutorial_area_control_right" = "Control Right";
+
+// MARK: - Camera Drawer Tabs
+"camera_drawer_parameters" = "Params";
+"camera_drawer_quick_tasks" = "Tasks";
+
+// MARK: - Quick Task Panel
+"quick_task_title" = "Quick Tasks";
+"quick_task_empty" = "No quick tasks";
+"quick_task_add_from_automation" = "Add from Task Master";
+"quick_task_remove" = "Remove from Quick Panel";
+"quick_task_add" = "Add to Quick Panel";
+"quick_task_added" = "Added to Quick Panel";
+
+// MARK: - Film Effects
+"film_reset" = "Reset";
+"film_default" = "Default";
+"film_effect_vignette" = "Vignette";
+"film_effect_halation" = "Halation";
+"film_effect_bloom" = "Bloom";
+"film_effect_fog" = "Fog";
+"film_effect_light_leak" = "Light Leak";
+"film_effect_cinetone" = "CineTone";
+"film_effect_grain" = "Grain";
+"settings_edit_name" = "Edit Name";
+"settings_edit_name_placeholder" = "Enter new name";
+"settings_save" = "Save";
+"frame_title" = "Frame";
+
+// MARK: - Paywall
+"paywall_title" = "YOYO Pro";
+"paywall_subtitle" = "Unlock All AI Features";
+"paywall_feature_unlock_ai_inspiration" = "Unlock AI Inspiration";
+"paywall_feature_ai_retouch" = "Unlock AI Retouch";
+"paywall_feature_ai_portrait" = "Unlock AI Portrait";
+"paywall_feature_monthly_credits" = "100 Monthly Credits";
+"paywall_restore_purchases" = "Restore Purchases";
+"paywall_restore_success_title" = "Restore Successful";
+"paywall_restore_success_message" = "Your purchases have been restored.";
+"paywall_restore_failed_title" = "Restore Failed";
+"paywall_terms_of_use" = "Terms of Use";
+"paywall_privacy_policy" = "Privacy Policy";
+
+"paywall_auto_renewal_footer" = "Plan renews automatically. You can cancel anytime in App Store settings at least 24 hours before the period ends.";
+
+"paywall_subscribe_button" = "Subscribe";
+"paywall_period_monthly" = "Month";
+"paywall_loading_products" = "Loading products...";
+"common_ok" = "OK";
+
+// MARK: - Boarding
+"onboarding_agree_prefix" = "By continuing, you agree to our ";
+"onboarding_agree_and" = " and ";
+
+"camera_settings_capture_mode" = "Shooting Mode";

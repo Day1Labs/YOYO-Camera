@@ -1,0 +1,3 @@
+// MARK: - Control Center Widget
+"yoyo_camera" = "YOYO 相机";
+"yoyo_camera_description" = "启动 YOYO 相机进行拍摄";

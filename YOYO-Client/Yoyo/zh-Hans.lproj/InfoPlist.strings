@@ -1,0 +1,12 @@
+/* UIApplicationShortcutItems Localizable Strings */
+"quick_action_video" = "视频";
+"quick_action_livephoto" = "动图";
+"quick_action_photo" = "照片";
+
+/* Permission Usage Descriptions */
+"CFBundleDisplayName" = "YOYO相机";
+"NSCameraUsageDescription" = "YOYO 需要访问相机以拍摄照片和录制视频。";
+"NSLocationWhenInUseUsageDescription" = "YOYO 需要访问您的位置，以便为您的照片添加地理位置标签（可选功能）。";
+"NSMicrophoneUsageDescription" = "YOYO 需要访问麦克风以录制视频音频。";
+"NSPhotoLibraryAddUsageDescription" = "YOYO 需要访问您的相册，以便将拍摄的照片保存到 YOYO 相册。";
+"NSPhotoLibraryUsageDescription" = "YOYO 需要访问您的相册，以便保存和管理您拍摄的照片。我们会在系统相册中创建一个专门的 YOYO 相册来整理您的照片。";

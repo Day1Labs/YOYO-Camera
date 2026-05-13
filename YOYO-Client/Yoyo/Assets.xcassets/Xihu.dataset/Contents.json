@@ -1,0 +1,13 @@
+{
+  "data" : [
+    {
+      "filename" : "Xihu.cube",
+      "idiom" : "universal",
+      "universal-type-identifier" : "com.blackmagicdesign.cube"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

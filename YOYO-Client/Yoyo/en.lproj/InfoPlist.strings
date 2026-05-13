@@ -1,0 +1,12 @@
+/* UIApplicationShortcutItems Localizable Strings */
+"quick_action_video" = "Video";
+"quick_action_livephoto" = "LivePhoto";
+"quick_action_photo" = "Photo";
+
+/* Permission Usage Descriptions */
+"CFBundleDisplayName" = "YOYO Camera";
+"NSCameraUsageDescription" = "YOYO needs access to the camera to capture photos and record videos.";
+"NSLocationWhenInUseUsageDescription" = "YOYO needs access to your location to add geographic location tags to your photos (optional feature).";
+"NSMicrophoneUsageDescription" = "YOYO needs access to the microphone to record audio for videos.";
+"NSPhotoLibraryAddUsageDescription" = "YOYO needs access to your photo library to save your captured photos to the YOYO album.";
+"NSPhotoLibraryUsageDescription" = "YOYO needs access to your photo library to save and manage your captured photos. We will create a dedicated YOYO album in your system photos to organize your photos.";

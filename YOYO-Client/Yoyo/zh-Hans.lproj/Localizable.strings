@@ -1,0 +1,983 @@
+// MARK: - File Naming Formats
+"camera_settings_file_naming" = "文件命名";
+"file_naming_standard" = "标准时间";
+"file_naming_classic" = "经典序号";
+"file_naming_daily" = "日期+序号";
+"file_naming_pro" = "类型+时间";
+"file_naming_custom" = "自定义格式";
+
+"file_naming_custom_desc" = "使用自定义模板";
+
+"file_naming_custom_format" = "自定义格式";
+"file_naming_variables" = "可用变量：{timestamp} {date} {time} {year} {month} {day} {hour} {minute} {second} {type} {format} {uuid} {index}（4位递增）";
+"file_naming_format" = "文件命名格式";
+
+// MARK: - Time of Day
+"time_dawn" = "黎明";
+"time_sunrise" = "日出";
+"time_morning" = "上午";
+"time_midday" = "正午";
+"time_afternoon" = "下午";
+"time_sunset" = "日落";
+"time_evening" = "傍晚";
+"time_dusk" = "黄昏";
+"time_blue_hour" = "蓝调时刻";
+"time_night" = "夜晚";
+
+
+// MARK: - Object Detection
+"objects_none" = "共0个";
+"objects_count" = "共%d个: %@";
+
+// MARK: - Brightness Analysis
+"exposure_moderate" = "曝光适中";
+"exposure_increase" = "建议增加曝光 +%.1f";
+"exposure_decrease" = "建议减少曝光 %.1f";
+
+// MARK: - Camera Settings Menu
+"camera_settings_grid" = "网格线";
+"camera_settings_guidelines" = "辅助线";
+"camera_settings_histogram" = "直方图";
+"camera_settings_hdr" = "HDR";
+"camera_settings_save_original" = "保存原片";
+"camera_settings_save_gps" = "保存位置信息";
+"camera_settings_copyright" = "版权信息";
+"camera_settings_copyright_text" = "版权信息内容";
+"camera_settings_copyright_placeholder" = "请输入版权信息";
+"camera_settings_volume_button" = "音量键拍照";
+"camera_settings_timer" = "倒计时";
+"camera_settings_aspect_ratio" = "宽高比";
+"camera_settings_automation" = "任务大师";
+
+// MARK: - AI Inspiration
+"ai_inspiration_title" = "AI 灵感";
+"ai_inspiration_loading" = "AI 正在构思灵感…";
+"ai_inspiration_detail" = "灵感详情";
+"ai_inspiration_no_image" = "无法获取当前画面";
+"ai_inspiration_generate_failed" = "生成灵感失败，请稍后再试";
+"ai_inspiration_preview_tap_to_get" = "点击画面获取灵感";
+"ai_inspiration_preview_cancel_hint" = "点击背景取消";
+
+
+// AI inspiration service errors
+"ai_inspiration_error_no_image" = "未提供图片";
+"ai_inspiration_error_encoding" = "图片编码失败";
+"ai_inspiration_error_not_logged_in" = "请先登录";
+"ai_inspiration_error_insufficient_credits" = "积分不足，请订阅获取更多积分";
+"ai_inspiration_error_invalid_response" = "服务器响应无效";
+"ai_inspiration_error_server" = "服务器错误 (%d)";
+"ai_inspiration_error_decoding" = "数据解析失败";
+
+// AI inspiration history
+"ai_inspiration_history_title" = "历史灵感";
+"ai_inspiration_history_empty" = "暂无历史灵感";
+"ai_inspiration_history_clear" = "清空历史";
+"ai_inspiration_history_clear_confirm" = "确定要清空所有历史灵感吗？";
+"camera_settings_capture_format" = "拍摄格式";
+"camera_settings_video_resolution" = "视频分辨率";
+"camera_settings_video_frame_rate" = "视频帧率";
+"camera_settings_video_format" = "视频格式";
+"camera_settings_preview_latest_photo" = "预览最新照片";
+
+// MARK: - Composition Guide Types
+// (Removed as icons are used for preview)
+
+// Photo Detail View
+"photo_detail_original" = "原图";
+"photo_detail_unfavorite" = "取消喜欢";
+"photo_detail_favorite" = "喜欢";
+"photo_detail_share" = "分享";
+"photo_detail_open_in_photos" = "在相册中打开";
+"photo_detail_delete_failed" = "删除照片失败";
+"photo_detail_unknown_filter" = "未知滤镜";
+
+// Photo Gallery
+"photos_title" = "照片";
+"select_all" = "全选";
+"deselect_all" = "取消全选";
+"selected_count" = "已选择 %d 张";
+"no_photos" = "暂无照片";
+"gallery_temporarily_unavailable" = "照片库暂时不可用";
+
+// Filter Gallery View
+"filter_gallery_favorites" = "收藏";
+"filter_gallery_film_simulation" = "胶片";
+"filter_gallery_import" = "导入";
+"no_favorite_filters" = "暂无收藏滤镜";
+
+// Filter Import
+"filter_import_from_file" = "从文件导入";
+"filter_import_from_url" = "从链接导入";
+"filter_import_from_url_title" = "从链接导入滤镜";
+"filter_import_url_placeholder" = "请输入 HTTPS 链接";
+"filter_import_url_message" = "仅支持 HTTPS 协议的 .cube 格式 LUT 文件链接";
+"filter_import_failed_title" = "导入失败";
+"filter_import_confirm" = "确定";
+"filter_import_error_invalid_url" = "链接格式无效";
+"filter_import_error_http_not_supported" = "不支持 HTTP 协议，请使用 HTTPS";
+"filter_import_error_download_failed" = "下载失败";
+"filter_import_error_bad_response" = "服务器返回错误";
+"filter_import_error_empty_data" = "下载的文件为空";
+"filter_import_error_unsupported_type" = "仅支持 .cube 格式";
+"filter_import_error_file_write_failed" = "文件保存失败";
+
+// Automation Filter Actions
+"automation_import_filter" = "导入滤镜";
+"automation_filter_importing" = "正在导入滤镜...";
+"automation_filter_import_success" = "滤镜已导入: %@";
+"automation_filter_import_failed" = "滤镜导入失败";
+"automation_filter_already_exists" = "滤镜已存在: %@";
+
+// MARK: - Filter Descriptions
+"filter_none_description" = "无滤镜效果";
+"filter_custom_description" = "自定义滤镜";
+"filter_vivid_description" = "增强影调，提升整体质感";
+"filter_l_classic_description" = "LC 经典色彩，浓郁饱满的色调与深邃对比";
+"filter_h_master_description" = "H-Master 自然色彩，真实自然的色彩还原与平滑细腻的肤色";
+"filter_gr_description" = "GR 街头摄影，鲜明浓郁的色彩与清晰锐利的影像";
+"filter_f_chrome_description" = "FC 富士色彩，模拟经典胶片直出效果，色彩通透且富有故事感";
+
+"filter_spring_description" = "柔和清新的色调";
+"filter_breeze_description" = "温暖明快的氛围";
+"filter_dusk_description" = "黄昏时分的柔和光线";
+"filter_kyoto_description" = "典雅细腻的色彩";
+"filter_horizon_description" = "清冷通透的视觉效果";
+"filter_haze_description" = "复古朦胧的质感";
+"filter_dawn_description" = "黎明般温柔的色调";
+"filter_blossom_description" = "鲜艳浓烈的色彩";
+"filter_frost_description" = "冷峻清透的色调";
+"filter_petal_description" = "淡雅柔美的色彩";
+"filter_oasis_description" = "清新自然的氛围";
+"filter_decisive_description" = "经典黑白影像";
+"filter_fan_description" = "高对比黑白";
+"filter_xihu_description" = "江南水乡的清雅色调";
+"filter_dali_description" = "怀旧温暖的胶片感";
+"filter_fuji_description" = "日式清新风格";
+"filter_kamakura_description" = "海滨城市的明亮色调";
+"filter_lisbon_description" = "温暖明媚的南欧风情";
+"filter_faroe_description" = "清冷空灵的北欧氛围";
+"filter_marrakech_description" = "浓郁复古的电影感";
+"filter_golden_gate_description" = "金色阳光般的温暖";
+"filter_joshua_description" = "自然柔和的色彩";
+"filter_havana_description" = "复古褪色的怀旧质感";
+"filter_dune_description" = "沙漠般温暖干燥的色调";
+
+// MARK: - Permissions
+"camera_permission_title" = "相机权限";
+"camera_permission_message" = "请在设置中允许 YOYO 访问相机。";
+
+// MARK: - Permission Management
+"permission_camera_title" = "相机权限";
+"permission_microphone_title" = "麦克风权限";
+"permission_photo_library_title" = "相册权限";
+"permission_location_title" = "位置权限";
+
+"permission_camera_description" = "需要访问相机来捕捉美好瞬间";
+"permission_microphone_description" = "需要访问麦克风来录制视频声音";
+"permission_photo_library_description" = "需要访问相册来保存和浏览照片";
+"permission_location_description" = "需要访问位置来记录照片拍摄地点";
+
+"permission_camera_denied" = "相机权限被拒绝，请在系统设置中开启";
+"permission_microphone_denied" = "麦克风权限被拒绝，请在系统设置中开启";
+"permission_photo_library_denied" = "相册权限被拒绝，请在系统设置中开启";
+"permission_location_denied" = "位置权限被拒绝，请在系统设置中开启";
+
+"permission_denied_title" = "权限被拒绝";
+"permission_open_settings" = "打开设置";
+"permission_authorize_button" = "继续";
+
+"permission_settings_title" = "权限管理";
+"permission_settings_status" = "权限状态";
+"permission_settings_footer" = "部分功能需要相应权限才能正常使用。如需修改权限，请点击对应项目。";
+
+"permission_status_authorized" = "已授权";
+"permission_status_limited" = "受限";
+"permission_status_denied" = "已拒绝";
+"permission_status_restricted" = "受限制";
+"permission_status_not_determined" = "未设置";
+
+"permission_limited_access_title" = "相册受限访问";
+"permission_limited_access_message" = "当前仅能访问部分照片，您可以选择更多照片或授予完整访问权限。";
+"permission_select_more_photos" = "选择更多照片";
+
+// MARK: - Permission Onboarding
+"onboarding_get_started" = "继续";
+"onboarding_complete" = "开始使用";
+
+
+// MARK: - Photo Info Sheet
+"photo_info_aesthetics_score" = "美学评分";
+"photo_info_photo_info" = "照片信息";
+"photo_info_capture_time" = "拍摄时间";
+"photo_info_filter" = "滤镜";
+"photo_info_aperture" = "光圈";
+"photo_info_shutter_speed" = "快门速度";
+"photo_info_focal_length" = "焦距";
+"photo_info_focal_length_35mm" = "35mm 等效焦距";
+"photo_info_lens_model" = "镜头";
+"photo_info_exposure_bias" = "曝光补偿";
+"photo_info_metering_mode" = "测光模式";
+"photo_info_metering_average" = "平均测光";
+"photo_info_metering_center_weighted" = "中央重点测光";
+"photo_info_metering_spot" = "点测光";
+"photo_info_metering_pattern" = "矩阵测光";
+"photo_info_metering_partial" = "局部测光";
+"photo_info_brightness" = "亮度";
+"photo_info_manufacturer" = "制造商";
+"photo_info_model" = "型号";
+"photo_info_dimensions" = "尺寸";
+"photo_info_white_balance" = "白平衡";
+"photo_info_file_size" = "文件大小";
+"photo_info_color_space" = "色彩空间";
+"photo_info_color_depth" = "色彩深度";
+"photo_info_flash" = "闪光灯";
+"photo_info_file_name" = "文件名";
+"photo_info_duration" = "时长";
+"photo_info_main_camera" = "主相机";
+"photo_info_ultra_wide_camera" = "超广角相机";
+"photo_info_telephoto_camera" = "长焦相机";
+
+// MARK: - Automation
+"automation_default_rule_title" = "任务";
+"automation_task_master_title" = "任务大师";
+"automation_rule_name_placeholder" = "任务名称";
+"automation_if_title" = "如果";
+"automation_then_title" = "就执行";
+"automation_create_title" = "创建任务";
+"automation_edit_title" = "编辑任务";
+"automation_confirm_pending_title" = "待确认";
+"automation_select_left_category" = "请选择左侧分类";
+"automation_history_title" = "执行历史";
+
+// ShareError messages
+"share_error_not_logged_in" = "请先登录";
+"share_error_invalid_response" = "服务器响应无效";
+"share_error_server" = "服务器错误 (%d)";
+"share_error_network" = "网络连接失败";
+"share_error_decoding" = "数据解析失败";
+"share_error_code_not_found" = "口令不存在或已失效";
+
+// Sharing
+"automation_share_title" = "分享任务";
+"automation_share_copy" = "复制口令";
+"automation_share_code_message" = "分享口令: %@\n将口令发送给好友，对方可通过口令导入此任务";
+"automation_share_error_title" = "分享失败";
+"automation_share_login_required" = "分享任务需要先登录您的账号";
+
+// Import
+"automation_import_by_code_title" = "通过口令导入";
+"automation_import_code_placeholder" = "输入6位口令";
+"automation_import_code_message" = "输入好友分享的口令以导入任务";
+"automation_import_confirm" = "导入";
+"automation_import_error_title" = "导入失败";
+"automation_import_success_title" = "导入成功";
+"automation_import_success_message" = "任务已添加到「我的」列表";
+
+// Scene names
+"scene_general" = "通用";
+"scene_portrait" = "人像";
+"scene_group" = "合影";
+"scene_pet" = "宠物";
+"scene_wildlife" = "野生动物";
+"scene_plant" = "植物";
+"scene_food" = "美食";
+"scene_sports" = "运动";
+"scene_vehicle" = "交通";
+"scene_cityscape" = "城市";
+"scene_interior" = "室内";
+"scene_still_life" = "静物";
+"scene_technology" = "科技";
+
+// MARK: - Settings
+"settings_title" = "设置";
+"settings_storage_management" = "存储空间管理";
+"settings_privacy_policy" = "隐私政策";
+"settings_user_agreement" = "用户协议";
+"settings_apple_login" = "使用 Apple 登录";
+"settings_apple_logout" = "退出登录";
+"settings_delete_account" = "删除账号";
+"settings_delete_account_confirm_title" = "确定要删除账号吗？";
+"settings_delete_account_confirm_message" = "所有与此账号关联的数据（包括分享的任务）将被永久删除。此操作不可撤销。";
+"settings_about_yoyo" = "关于 YOYO";
+"settings_contact_us" = "联系我们";
+"settings_rate_app" = "给个好评";
+"settings_system_permissions" = "系统权限设置";
+"settings_follow_xiaohongshu" = "在小红书上关注我们";
+"settings_follow_x" = "在 X 上关注我们";
+"settings_version" = "版本 %@";
+"settings_group_account" = "账号";
+"settings_group_general" = "通用";
+"settings_group_about" = "关于";
+"settings_group_camera" = "相机";
+"settings_group_support" = "支持";
+"settings_group_developer" = "开发者";
+"settings_developer_mode" = "开发者模式";
+"settings_follow_us" = "关注我们";
+
+// MARK: - Storage Settings
+"settings_storage_device" = "设备存储";
+"settings_storage_total" = "总空间";
+"settings_storage_available" = "可用空间";
+"settings_storage_app" = "App 存储";
+"settings_storage_app_usage" = "App 占用";
+"settings_storage_documents" = "文档";
+"settings_storage_library" = "资源库";
+"settings_storage_cache" = "缓存";
+"settings_storage_temp" = "临时文件";
+"settings_storage_no_files" = "无文件";
+"settings_storage_delete_confirm" = "确定要删除 %@ 吗？";
+"settings_storage_actions" = "操作";
+"settings_storage_clear_cache" = "清除缓存";
+"settings_storage_clear" = "清除";
+"settings_storage_clear_confirm" = "确定要清除 %@ 的缓存吗？";
+
+// MARK: - Automation Action Display
+"action_set_zoom" = "设置缩放";
+"action_multiply_zoom" = "缩放倍数";
+"action_clamp_zoom" = "限制缩放";
+"action_set_exposure_bias" = "设置曝光补偿";
+"action_add_exposure_bias" = "增加曝光补偿";
+"action_set_flash_mode" = "设置闪光灯";
+"action_set_flash_mode_if_auto" = "自动设置闪光灯";
+"action_focus_on_subject" = "对焦主体";
+"action_focus_on_rule_of_thirds" = "对焦三分点";
+"action_set_filter" = "设置滤镜";
+"action_set_white_balance" = "设置白平衡";
+"action_set_white_balance_temperature" = "设置色温";
+"action_set_white_balance_tint" = "设置色调";
+"action_adjust_white_balance_temperature" = "调整色温";
+"action_adjust_white_balance_tint" = "调整色调";
+"action_set_iso" = "设置 ISO";
+"action_adjust_iso" = "调整 ISO";
+"action_clamp_iso" = "限制 ISO";
+"action_set_shutter_speed" = "设置快门速度";
+"action_multiply_shutter_speed" = "快门速度倍数";
+"action_clamp_shutter_speed" = "限制快门速度";
+"action_show_toast" = "显示提示";
+
+"action_detail_focus_on_subject" = "自动对焦到主体";
+"action_detail_focus_on_rule_of_thirds" = "对焦到三分法点";
+"unit_kelvin_tint" = "%dK, 色调 %d";
+"toast_prefix" = "提示: ";
+"toast_type_success" = "成功";
+"toast_type_error" = "错误";
+"toast_type_warning" = "警告";
+"toast_type_info" = "信息";
+
+"summary_set_zoom" = "设置缩放 %@";
+"summary_multiply_zoom" = "缩放 ×%@";
+"summary_clamp_zoom" = "限制缩放";
+"summary_exposure_bias" = "曝光补偿";
+"summary_increase_exposure" = "增加曝光 %@";
+"summary_decrease_exposure" = "减少曝光 %@";
+"summary_flash_mode" = "闪光灯 %@";
+"summary_focus_on_subject" = "对焦主体";
+"summary_focus_on_rule_of_thirds" = "对焦三分点";
+"summary_filter" = "滤镜 %@";
+"summary_white_balance" = "白平衡";
+"summary_set_white_balance_temperature" = "色温 %dK";
+"summary_set_white_balance_tint" = "色调 %d";
+"summary_adjust_white_balance_temperature" = "色温 %+.0fK";
+"summary_adjust_white_balance_tint" = "色调 %+.0f";
+"summary_set_iso" = "ISO %@";
+"summary_increase_iso" = "增加 ISO %@";
+"summary_decrease_iso" = "减少 ISO %@";
+"summary_clamp_iso" = "限制 ISO 范围";
+"summary_set_shutter_speed" = "快门 %@";
+"summary_multiply_shutter_speed" = "快门 ×%@";
+"summary_clamp_shutter_speed" = "限制快门范围";
+"summary_toast" = "提示: %@";
+
+// MARK: - Automation Condition Display
+"condition_scene_is" = "场景是";
+"condition_scene_is_not" = "场景不是";
+"condition_scene_in" = "场景在列表中";
+"condition_lighting_is" = "光照是";
+"condition_lighting_is_not" = "光照不是";
+"condition_lighting_in_list" = "光照在列表中";
+"condition_subject_size_below" = "主体大小小于";
+"condition_subject_size_above" = "主体大小大于";
+"condition_rule_of_thirds_alignment_below" = "主体未靠近三分点";
+"condition_rule_of_thirds_alignment_above" = "主体靠近三分点";
+"condition_frame_generic" = "画面";
+"condition_background" = "背景";
+"condition_subject" = "主体";
+"condition_subject_type_is" = "主体类型是";
+"condition_object_count_above" = "物体数量大于";
+"condition_object_count_equals" = "物体数量等于";
+"condition_has_object" = "包含物体";
+"condition_motion_level_above" = "运动水平大于";
+"condition_motion_level_below" = "运动水平小于";
+"condition_highlight_ratio_above" = "高光比例大于";
+"condition_highlight_ratio_below" = "高光比例小于";
+"condition_time_in_range" = "时间范围";
+"condition_time_after" = "时间晚于";
+"condition_time_before" = "时间早于";
+"condition_weekday_is" = "星期";
+"condition_weekday_in" = "星期在列表中";
+"condition_date_is" = "指定日期";
+"condition_nth_weekday_of_month" = "每月第N个星期X";
+"condition_month_is" = "月份";
+"condition_month_in" = "月份在列表中";
+"condition_near_location" = "靠近位置";
+"condition_inside_region" = "在区域内";
+"condition_outside_region" = "在区域外";
+"condition_altitude_above" = "海拔高于";
+"condition_altitude_below" = "海拔低于";
+"condition_altitude_in_range" = "海拔范围";
+"condition_color_temperature_is" = "色温是";
+"condition_color_temperature_is_not" = "色温不是";
+"condition_saturation_above" = "饱和度高于";
+"condition_saturation_below" = "饱和度低于";
+"condition_brightness_above" = "亮度高于";
+"condition_brightness_below" = "亮度低于";
+"condition_dominant_color_count_equals" = "主色调数量等于";
+"condition_dominant_color_count_above" = "主色调数量大于";
+"condition_dominant_color_count_below" = "主色调数量小于";
+"condition_before_capture" = "拍摄前";
+"condition_after_capture" = "拍摄完成";
+
+"detail_not_aligned" = "未对齐";
+"detail_aligned" = "已对齐";
+"detail_bias_left" = "偏左";
+"detail_bias_right" = "偏右";
+"detail_bias_top" = "偏上";
+"detail_bias_bottom" = "偏下";
+"detail_balanced" = "均衡";
+"detail_unbalanced" = "不平衡";
+"detail_balance_good" = "平衡";
+"detail_strong_leading_lines" = "有明显引导线";
+"detail_simple" = "简洁";
+"detail_moderate" = "适中";
+"detail_complex" = "复杂";
+"detail_obvious" = "明显";
+"detail_subject_face" = "人像";
+"detail_subject_salient_region" = "显著区域";
+"detail_overexposed" = "过曝";
+"detail_before_capture_desc" = "准备拍摄时";
+"detail_after_capture_desc" = "拍摄完成后";
+
+"summary_scene_is" = "场景是%@";
+"summary_scene_is_not" = "场景不是%@";
+"summary_scene_in" = "场景在[%@]";
+"summary_lighting_is" = "光照是%@";
+"summary_lighting_is_not" = "光照不是%@";
+"summary_lighting_in" = "光照在[%@]";
+"summary_subject_size_below" = "主体小于%@";
+"summary_subject_size_above" = "主体大于%@";
+"summary_rule_of_thirds_alignment_below" = "主体未靠近三分点";
+"summary_rule_of_thirds_alignment_above" = "主体靠近三分点";
+"summary_frame_bias_left" = "画面偏左";
+"summary_frame_bias_right" = "画面偏右";
+"summary_frame_bias_top" = "画面偏上";
+"summary_frame_bias_bottom" = "画面偏下";
+"summary_frame_balanced" = "画面均衡";
+"summary_visual_balance_below" = "画面偏重";
+"summary_visual_balance_above" = "画面平衡良好";
+"summary_leading_line_strength_above" = "引导线强度>%@";
+"summary_background_simple" = "背景简洁";
+"summary_background_moderate" = "背景适中";
+"summary_background_complex" = "背景复杂";
+"summary_has_main_subject" = "主体明显";
+"summary_subject_type_is" = "主体类型是%@";
+"summary_object_count_above" = "物体数量>%@";
+"summary_object_count_equals" = "物体数量=%@";
+"summary_has_object" = "包含%@";
+"summary_motion_level_above" = "运动水平>%@";
+"summary_motion_level_below" = "运动水平<%@";
+"summary_highlight_ratio_above" = "高光比例>%@";
+"summary_highlight_ratio_below" = "高光比例<%@";
+"summary_is_overexposed" = "过曝";
+"summary_weekday_is" = "星期%@";
+"summary_weekday_in" = "星期在[%@]";
+"summary_date_is" = "%@月%@日";
+"summary_nth_weekday_of_month" = "%@月第%@个%@";
+"summary_month_in" = "月份在[%@]";
+"summary_near_location" = "靠近(%.4f, %.4f) %dm";
+"summary_inside_region" = "区域内(%.4f, %.4f) %dm";
+"summary_outside_region" = "区域外(%.4f, %.4f) %dm";
+"summary_altitude_above" = "海拔>%@m";
+"summary_altitude_below" = "海拔<%@m";
+"summary_altitude_in_range" = "海拔%@-%@m";
+"summary_color_temperature_is" = "色温是%@";
+"summary_color_temperature_is_not" = "色温不是%@";
+"summary_saturation_above" = "饱和度>%@";
+"summary_saturation_below" = "饱和度<%@";
+"summary_brightness_above" = "亮度>%@";
+"summary_brightness_below" = "亮度<%@";
+"summary_dominant_color_count_equals" = "主色调=%@";
+"summary_dominant_color_count_above" = "主色调>%@";
+"summary_dominant_color_count_below" = "主色调<%@";
+"summary_before_capture" = "拍摄前";
+"summary_after_capture" = "拍摄完成";
+
+// MARK: - Recommended Tasks
+"rec_task_portrait_title" = "人像智能优化";
+"rec_task_portrait_desc" = "拍摄人像时，自动调整至适宜的焦距和曝光，并开启人脸对焦";
+"rec_task_city_title" = "城市街景模式";
+"rec_task_city_desc" = "拍摄城市建筑或街景时，自动切换至广角并优化曝光";
+"rec_task_food_title" = "美食拍摄增强";
+"rec_task_food_desc" = "拍摄美食时，提升曝光让食物更诱人，并应用暖色滤镜";
+"rec_task_low_light_title" = "弱光智能补偿";
+"rec_task_low_light_desc" = "在光线不足时，自动提升曝光并开启闪光灯辅助";
+"rec_task_pet_title" = "宠物快速抓拍";
+"rec_task_pet_desc" = "拍摄宠物时，拉近焦距捕捉细节，并快速对焦主体";
+"rec_task_sports_title" = "运动瞬间抓拍";
+"rec_task_sports_desc" = "拍摄运动场景时，使用高速快门凝固瞬间";
+"rec_task_flower_title" = "花卉特写";
+"rec_task_flower_desc" = "拍摄花卉时，自动放大焦距以突出细节";
+"rec_task_overexposure_title" = "过曝自动修正";
+"rec_task_overexposure_desc" = "检测到画面严重过曝时，自动降低曝光";
+
+"rec_task_sunset_title" = "日落氛围增强";
+"rec_task_sunset_desc" = "在日落时分，自动调整曝光并应用暖色滤镜，捕捉最美晚霞";
+
+"condition_type_scene" = "场景类型";
+"condition_type_lighting" = "光照条件";
+"condition_type_exposure_status" = "曝光状态";
+"condition_type_color_temp" = "色温";
+
+"action_type_zoom" = "调整缩放";
+"action_type_exposure" = "曝光补偿";
+"action_type_focus" = "对焦主体";
+"action_type_filter" = "滤镜";
+"action_type_flash" = "闪光灯";
+"action_type_shutter" = "快门速度";
+"action_type_toast" = "提示";
+
+"scene_city_building" = "城市、建筑";
+"scene_pet_animal" = "宠物、动物";
+"lighting_dark_dim" = "昏暗或黑暗";
+"color_temp_warm" = "暖色调";
+"color_temp_cool" = "冷色调";
+"color_temp_neutral" = "中性色调";
+"exposure_overexposed" = "过曝";
+"subject_animal" = "动物";
+"filter_golden_gate" = "金门";
+"filter_faroe" = "法罗";
+"toast_corrected" = "已修正";
+"toast_exposure_reduced" = "已降低曝光";
+
+"rec_task_use_this" = "使用此任务";
+"rec_task_selection_title" = "预选任务";
+
+// MARK: - Automation Editor
+"automation_condition_logic_all" = "全部";
+"automation_condition_logic_any" = "任意";
+"automation_condition_logic_all_desc" = "以下全部条件满足时，任务将自动运行。不添加时，任务需手动运行";
+"automation_condition_logic_any_desc" = "以下任意条件满足时，任务将自动运行。不添加时，任务需手动运行";
+"automation_actions_prompt" = "执行哪些操作？";
+"automation_add_action" = "然后";
+"automation_execution_frequency" = "执行频率";
+"automation_execution_frequency_desc" = "限制任务的执行频率，避免重复触发";
+"automation_confirm_button" = "确定";
+"automation_logic_and" = "并且";
+"automation_logic_or" = "或者";
+"automation_share_success_title" = "分享成功";
+"automation_share_success_desc" = "他人可通过此码导入该自动化";
+"automation_share_copy_code" = "复制分享码";
+// MARK: - Automation Import
+"automation_import_title" = "导入任务";
+"automation_import_input_code" = "请输入 6 位分享口令";
+// MARK: - Automation History
+"automation_trigger_automatic" = "自动触发";
+"automation_trigger_manual" = "手动触发";
+"automation_trigger_confirmed" = "确认执行";
+"automation_trigger_cancelled" = "已取消";
+"automation_history_empty" = "暂无执行记录";
+"automation_execution_details" = "执行详情";
+"automation_trigger_type" = "触发方式:";
+"automation_trigger_conditions" = "触发条件";
+"automation_executed_actions" = "执行动作";
+"time_just_now" = "刚刚";
+"time_minutes_ago" = "%d分钟前";
+"time_hours_ago" = "%d小时前";
+"time_days_ago" = "%d天前";
+"time_today" = "今天";
+"time_yesterday" = "昨天";
+// MARK: - Automation Picker Categories
+"category_scene" = "场景";
+"category_lighting" = "光照";
+"category_composition" = "构图";
+"category_subject" = "主体";
+"category_motion" = "运动";
+"category_exposure_condition" = "曝光";
+"category_color" = "色彩";
+"category_time" = "时间";
+"category_location" = "地点";
+"category_altitude" = "海拔";
+"category_capture" = "拍摄";
+"category_zoom" = "缩放";
+"category_exposure_action" = "曝光";
+"category_flash" = "闪光灯";
+"category_focus" = "对焦";
+"category_filter" = "滤镜";
+"category_white_balance" = "白平衡";
+"category_iso" = "ISO";
+"category_shutter" = "快门";
+"category_toast" = "提示";
+
+// MARK: - Automation Settings
+"automation_recommended_tab" = "推荐";
+"automation_my_tab" = "我的";
+"automation_no_tasks" = "暂无任务";
+
+// MARK: - Automation Location Picker
+"automation_search_location" = "搜索位置";
+"automation_unknown_location" = "未知位置";
+"automation_selected_location" = "选中位置";
+"automation_trigger_range" = "触发范围";
+"automation_confirm_selection" = "确认选择";
+
+// MARK: - Automation Condition Time
+"automation_condition_after" = "晚于";
+"automation_condition_before" = "早于";
+"automation_condition_altitude_above" = "海拔高于";
+"automation_condition_altitude_below" = "海拔低于";
+
+// MARK: - Automation Cards
+"automation_execute_once" = "执行一次";
+"automation_require_confirmation" = "执行前确认";
+"automation_copy_share_code" = "复制分享码: %@";
+"automation_sharing" = "分享中...";
+"automation_share_task" = "分享任务";
+"automation_reshare" = "重新分享";
+"automation_clone_task" = "克隆任务";
+"automation_delete_task" = "删除任务";
+"automation_share_failed" = "分享失败";
+
+// MARK: - Automation Picker
+"automation_select_category" = "请选择左侧分类";
+"automation_start_time" = "开始时间";
+"automation_end_time" = "结束时间";
+"automation_select_time" = "选择时间";
+"automation_time" = "时间";
+"automation_condition" = "条件";
+"automation_select_weekday" = "选择星期";
+"automation_select_date" = "选择日期";
+"automation_date_rule" = "选择日期规则";
+"automation_month" = "月份";
+"automation_nth" = "第几个";
+"automation_weekday" = "星期";
+"automation_select_altitude" = "选择海拔";
+"automation_altitude_meters" = "海拔（米）";
+"automation_color_temperature_range" = "色温 (2000K - 8000K)";
+"automation_tint_range" = "色调 (-150 - 150)";
+"automation_iso_value" = "ISO 值";
+"automation_hint" = "提示";
+"automation_positive_increase_negative_decrease" = "正数增加,负数减少";
+"automation_shutter_speed" = "快门速度";
+"automation_numerator" = "分子";
+"automation_denominator" = "分母";
+"automation_message_type" = "消息类型";
+"automation_message_content" = "消息内容";
+"automation_display_duration_seconds" = "显示时长 (秒)";
+
+
+// MARK: - Automation Time Options
+"automation_time_common_periods" = "常用时间段";
+"automation_time_common_weekdays" = "常用星期";
+"automation_time_custom_range" = "自定义时间范围";
+"automation_time_custom_point" = "自定义时间点 (晚于/早于)";
+"automation_time_custom_weekday" = "自定义星期";
+"automation_time_custom_date" = "自定义日期";
+"automation_time_nth_weekday" = "每月第N个星期X";
+"automation_select_location" = "选择位置";
+
+// MARK: - Automation Altitude Options
+"automation_altitude_custom" = "自定义海拔";
+"automation_altitude_meters_unit" = "海拔（米）";
+"automation_altitude_input_placeholder" = "输入海拔高度";
+"automation_altitude_condition" = "条件";
+
+// MARK: - Automation Time Pickers
+"automation_hour" = "小时";
+"automation_minute" = "分钟";
+"automation_month" = "月";
+"automation_day" = "日";
+
+// MARK: - Automation White Balance Options
+"automation_white_balance_presets" = "预设";
+"automation_white_balance_adjustments" = "调整";
+"automation_white_balance_title" = "设置白平衡";
+
+// MARK: - Automation ISO Options
+"automation_iso_common" = "常用 ISO";
+"automation_iso_adjustments" = "调整";
+"automation_iso_mode_set" = "设置为";
+"automation_iso_mode_adjust" = "相对调整";
+"automation_iso_input_set" = "输入 ISO 值";
+"automation_iso_input_adjust" = "输入调整量";
+"automation_iso_typical_values" = "典型值: 100, 200, 400, 800, 1600, 3200";
+"automation_mode" = "模式";
+
+// MARK: - Automation Shutter Options
+"automation_shutter_common" = "常用快门";
+"automation_shutter_title" = "设置快门速度";
+"automation_shutter_numerator" = "分子";
+"automation_shutter_denominator" = "分母";
+
+// MARK: - Automation Filter Options
+"automation_filter_import_from_url" = "从 URL 导入";
+"automation_filter_import_url" = "从 URL 导入滤镜";
+"automation_filter_builtin" = "内置滤镜";
+"automation_filter_custom_filters" = "自定义滤镜";
+"automation_filter_url_title" = "滤镜 URL";
+"automation_filter_url_placeholder" = "请输入 HTTPS 链接";
+"automation_filter_custom_name" = "自定义名称（可选）";
+"automation_filter_custom_name_placeholder" = "留空则使用文件名";
+"automation_filter_url_message" = "仅支持 HTTPS 协议的 .cube 格式 LUT 文件链接";
+
+// MARK: - Lighting Conditions
+"lighting_condition_dark" = "暗";
+"lighting_condition_dim" = "昏暗";
+"lighting_condition_normal" = "正常";
+"lighting_condition_bright" = "明亮";
+"lighting_condition_glare" = "刺眼";
+
+// MARK: - Automation Color Options
+"automation_color_temperature" = "色温";
+"automation_color_saturation" = "饱和度";
+"automation_color_brightness" = "亮度";
+
+// MARK: - Automation Toast Options
+"automation_toast_common" = "常用提示";
+"automation_toast_success_complete_message" = "操作完成";
+"automation_toast_warning_light_message" = "光线不足";
+"automation_toast_info_composition_message" = "注意构图";
+"automation_toast_custom_message" = "自定义消息";
+"automation_toast_custom_title" = "自定义Toast消息";
+"automation_toast_type" = "类型";
+"automation_toast_message_content" = "消息内容";
+"automation_toast_input_placeholder" = "输入消息文本";
+"automation_toast_duration" = "显示时长 (秒)";
+
+// MARK: - Automation Formatters
+"automation_weekday_sunday" = "周日";
+"automation_weekday_monday" = "周一";
+"automation_weekday_tuesday" = "周二";
+"automation_weekday_wednesday" = "周三";
+"automation_weekday_thursday" = "周四";
+"automation_weekday_friday" = "周五";
+"automation_weekday_saturday" = "周六";
+
+"automation_month_january" = "一月";
+"automation_month_february" = "二月";
+"automation_month_march" = "三月";
+"automation_month_april" = "四月";
+"automation_month_may" = "五月";
+"automation_month_june" = "六月";
+"automation_month_july" = "七月";
+"automation_month_august" = "八月";
+"automation_month_september" = "九月";
+"automation_month_october" = "十月";
+"automation_month_november" = "十一月";
+"automation_month_december" = "十二月";
+
+"automation_toast_success" = "成功";
+"automation_toast_info" = "信息";
+"automation_toast_warning" = "警告";
+"automation_toast_error" = "错误";
+
+"automation_execution_unlimited" = "无限制";
+"automation_execution_seconds" = "%d 秒";
+"automation_execution_minutes" = "%d 分钟";
+"automation_execution_hours" = "%d 小时";
+"automation_execution_days" = "%d 天";
+
+// MARK: - Automation Interval Picker
+"automation_interval_min_label" = "5 秒";
+"automation_interval_max_label" = "1 天";
+"automation_interval_minutes_seconds" = "%d 分 %d 秒";
+"automation_interval_hours_minutes" = "%d 小时 %d 分";
+
+// MARK: - AI Darkroom
+"ai_darkroom_title" = "AI 暗房";
+"ai_darkroom_processing" = "AI 正在处理中...";
+"ai_darkroom_portrait_enhance" = "人像增强";
+"ai_darkroom_id_photo" = "证件照";
+"ai_darkroom_professional_photo" = "职场照";
+"ai_darkroom_social_avatar" = "社交头像";
+"ai_darkroom_remove_objects" = "去路人";
+"ai_darkroom_blur_repair" = "画质修复";
+"ai_darkroom_color_grading" = "智能调色";
+"ai_darkroom_fix_closed_eyes" = "闭眼修复";
+
+// MARK: - ISO Presets
+"iso_preset_low_noise" = "低噪点";
+"iso_preset_balanced" = "均衡";
+"iso_preset_high" = "高ISO";
+"iso_preset_extreme" = "极限";
+"iso_preset_low_noise_desc" = "优先考虑图像质量，噪点最少";
+"iso_preset_balanced_desc" = "平衡噪点和感光度，适合一般用途";
+"iso_preset_high_desc" = "更高的感光度，适合低光环境";
+"iso_preset_extreme_desc" = "最大感光度，适合非常暗的环境";
+
+// MARK: - Shutter Speed Presets
+"shutter_preset_handheld" = "手持拍摄";
+"shutter_preset_stable" = "稳定支撑";
+"shutter_preset_tripod" = "三脚架";
+"shutter_preset_long_exposure" = "长曝光";
+"shutter_preset_handheld_desc" = "手持拍摄 (≥ 1/60s)";
+"shutter_preset_stable_desc" = "稳定支撑拍摄 (≥ 1/30s)";
+"shutter_preset_tripod_desc" = "三脚架拍摄 (≥ 1/15s)";
+"shutter_preset_long_exposure_desc" = "长曝光摄影 (≥ 1/4s)";
+
+// MARK: - Language
+"settings_language" = "多语言";
+"system_default" = "跟随系统";
+
+// MARK: - Common
+"common_on" = "开启";
+"common_off" = "关闭";
+"common_preview" = "预览";
+"common_custom" = "自定义";
+"common_unknown" = "未知";
+"common_cancel" = "取消";
+"common_done" = "完成";
+"common_delete" = "删除";
+"common_select" = "选择";
+"common_settings" = "设置";
+"common_auto" = "自动";
+"common_login" = "登录";
+
+// MARK: - Frame Settings
+"frame_settings_device_model" = "设备型号";
+"frame_settings_exif" = "EXIF";
+"frame_settings_apple_icon" = "Apple 图标";
+"frame_settings_date" = "拍摄日期";
+"frame_settings_time" = "拍摄时间";
+"frame_settings_location" = "拍摄地点";
+"frame_settings_festival_watermark" = "节日水印";
+
+// MARK: - Audio Settings
+"audio_settings_title" = "音频";
+"audio_settings_noise_reduction" = "启用降噪";
+"audio_settings_noise_reduction_desc" = "启用硬件级音频处理，获得更清晰的录音效果";
+"audio_settings_pickup_pattern" = "收音模式";
+"audio_pickup_ambient" = "环境";
+"audio_pickup_voice" = "人声";
+"audio_pickup_voice_enhanced" = "人声增强";
+"audio_pickup_ambient_desc" = "全向拾音，捕捉周围所有声音";
+"audio_pickup_voice_desc" = "心型指向，突出前方声音，减少背景噪音";
+"audio_pickup_voice_enhanced_desc" = "亚心型指向，更强的人声聚焦";
+"audio_pickup_not_supported" = "当前设备不支持";
+
+// MARK: - Error Descriptions
+"gallery_error_permission_denied" = "需要相册访问权限才能加载照片";
+"gallery_error_network_unavailable" = "网络连接不可用，无法加载 iCloud 照片";
+"gallery_error_asset_not_found" = "照片资源不存在";
+
+"save_error_missing_dependencies" = "保存服务缺少必要的依赖";
+"save_error_failed" = "保存失败: %@";
+
+"album_error_creation_failed" = "创建 YOYO 相册失败";
+"album_error_photo_save_failed" = "保存照片到相册失败";
+"album_error_photo_delete_failed" = "从相册删除照片失败";
+"album_error_permission_denied" = "无相册访问权限";
+"album_error_asset_not_found" = "照片资源未找到";
+"album_error_video_save_failed" = "保存视频到相册失败";
+
+// MARK: - Photo Preview
+"photo_preview_load_failed" = "加载失败";
+"photo_preview_retry" = "重试";
+
+// MARK: - Camera Preview
+"camera_focus_unlocked" = "已解锁对焦";
+"camera_focus_locked" = "已锁定对焦和曝光";
+"camera_filter_intensity_format" = "%@ %d%%";
+"camera_exposure_value_format" = "%.1f EV";
+
+// MARK: - Capture Errors
+"capture_error_init_failed" = "相机不可用";
+"capture_error_insufficient_storage" = "存储空间不足";
+"capture_error_recording_failed" = "录制启动失败";
+"capture_error_processing_failed" = "处理失败，请重试";
+"capture_error_save_timeout" = "保存超时，请重试";
+"capture_error_capture_timeout" = "拍照超时，请重试";
+"capture_error_unknown" = "发生未知错误";
+
+// MARK: - Privacy and Analytics
+"settings_privacy_analytics" = "数据分析与改进";
+"settings_privacy_analytics_description" = "通过分享匿名使用数据帮助改进 YOYO。这包括功能使用情况、应用稳定性和性能指标。我们绝不会收集您的照片或个人信息。";
+"settings_privacy_data_collection" = "分享数据分析";
+
+// MARK: - Feature Tutorial
+"tutorial_filter_favorite_desc" = "长按非胶片滤镜卡片可收藏或取消收藏";
+"tutorial_swipe_filter_title" = "切换滤镜";
+"tutorial_swipe_filter_desc" = "在取景框内左右滑动可快速切换滤镜";
+"tutorial_filter_intensity_title" = "调节滤镜强度";
+"tutorial_filter_intensity_desc" = "在取景框左侧区域上下滑动可调节当前滤镜的强度";
+"tutorial_exposure_title" = "调节曝光";
+"tutorial_exposure_desc" = "在取景框中间区域上下滑动可调节曝光补偿";
+"tutorial_zoom_title" = "调节缩放";
+"tutorial_zoom_desc" = "在取景框右侧区域上下滑动可调节画面缩放";
+"tutorial_got_it" = "知道了";
+"tutorial_skip" = "跳过";
+"tutorial_next" = "下一步";
+"tutorial_start_using" = "开始使用";
+"tutorial_area_left" = "左侧";
+"tutorial_area_center" = "中间";
+"tutorial_area_right" = "右侧";
+
+// MARK: - Camera Control Drawer Tutorial
+"tutorial_parameter_drawer_title" = "相机参数";
+"tutorial_parameter_drawer_desc" = "在控制栏左侧下滑可打开面板，切换至“参数”标签页";
+"tutorial_quick_task_title" = "快捷任务";
+"tutorial_quick_task_desc" = "在控制栏右侧下滑可打开面板，切换至“任务”标签页";
+"tutorial_area_control_left" = "控制栏左侧";
+"tutorial_area_control_right" = "控制栏右侧";
+
+// MARK: - Camera Drawer Tabs
+"camera_drawer_parameters" = "参数";
+"camera_drawer_quick_tasks" = "任务";
+
+// MARK: - Quick Task Panel
+"quick_task_title" = "快捷任务";
+"quick_task_empty" = "暂无快捷任务";
+"quick_task_add_from_automation" = "从任务大师添加";
+"quick_task_remove" = "从快捷面板移除";
+"quick_task_add" = "添加到快捷面板";
+"quick_task_added" = "已添加到快捷面板";
+
+// MARK: - Film Effects
+"film_reset" = "重置";
+"film_default" = "默认值";
+"film_effect_vignette" = "暗角";
+"film_effect_halation" = "光晕";
+"film_effect_bloom" = "柔光";
+"film_effect_fog" = "雾化";
+"film_effect_light_leak" = "漏光";
+"film_effect_cinetone" = "色调";
+"film_effect_grain" = "颗粒";
+"settings_edit_name" = "修改昵称";
+"settings_edit_name_placeholder" = "输入新昵称";
+"settings_save" = "保存";
+"frame_title" = "相框";
+
+// MARK: - Paywall
+"paywall_title" = "YOYO Pro";
+"paywall_subtitle" = "解锁所有 AI 功能";
+"paywall_feature_unlock_ai_inspiration" = "解锁 AI 灵感";
+"paywall_feature_ai_retouch" = "解锁 AI 修图";
+"paywall_feature_ai_portrait" = "解锁 AI 写真";
+"paywall_feature_monthly_credits" = "每月 100 点积分";
+"paywall_restore_purchases" = "恢复购买";
+"paywall_restore_success_title" = "恢复成功";
+"paywall_restore_success_message" = "您的购买已恢复。";
+"paywall_restore_failed_title" = "恢复失败";
+"paywall_terms_of_use" = "使用条款";
+"paywall_privacy_policy" = "隐私政策";
+
+"paywall_auto_renewal_footer" = "订阅将自动续费。您可以在当前周期结束前 24 小时随时在 App Store 设置中取消。";
+
+"paywall_subscribe_button" = "立即订阅";
+"paywall_period_monthly" = "月";
+"paywall_loading_products" = "正在加载商品...";
+"common_ok" = "好的";
+
+// MARK: - Boarding
+"onboarding_agree_prefix" = "继续即代表您同意";
+"onboarding_agree_and" = "与";
+
+"camera_settings_capture_mode" = "拍摄模式";

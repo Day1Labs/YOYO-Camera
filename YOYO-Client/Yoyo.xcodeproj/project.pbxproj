@@ -1,0 +1,863 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B49CFE72EFDAABE0046C43D /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 2B49CFE62EFDAABE0046C43D /* FirebaseAnalytics */; };
+		2B49CFE92EFDAABE0046C43D /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 2B49CFE82EFDAABE0046C43D /* FirebaseCrashlytics */; };
+		2BD2CE6A2E804014007682AF /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD2CE692E804014007682AF /* WidgetKit.framework */; };
+		2BD2CE6C2E804014007682AF /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD2CE6B2E804014007682AF /* SwiftUI.framework */; };
+		2BD2CE7D2E804016007682AF /* YoyoControlWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 2BD2CE682E804014007682AF /* YoyoControlWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B9E70C52E0552BF0007DE41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B9E70AD2E0552BC0007DE41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B9E70B42E0552BC0007DE41;
+			remoteInfo = Yoyo;
+		};
+		2B9E70CF2E0552BF0007DE41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B9E70AD2E0552BC0007DE41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B9E70B42E0552BC0007DE41;
+			remoteInfo = Yoyo;
+		};
+		2BD2CE7B2E804016007682AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B9E70AD2E0552BC0007DE41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BD2CE672E804014007682AF;
+			remoteInfo = YoyoControlWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2BD2CE7E2E804016007682AF /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2BD2CE7D2E804016007682AF /* YoyoControlWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2B9E70B52E0552BC0007DE41 /* Yoyo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yoyo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B9E70C42E0552BF0007DE41 /* YoyoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoyoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B9E70CE2E0552BF0007DE41 /* YoyoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoyoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BD2CE682E804014007682AF /* YoyoControlWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = YoyoControlWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BD2CE692E804014007682AF /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		2BD2CE6B2E804014007682AF /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		2B4198482EA25F560016B837 /* Exceptions for "Yoyo" folder in "Yoyo" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 2B9E70B42E0552BC0007DE41 /* Yoyo */;
+		};
+		2B4198492EA2601E0016B837 /* Exceptions for "YoyoControlWidget" folder in "YoyoControlWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 2BD2CE672E804014007682AF /* YoyoControlWidgetExtension */;
+		};
+		2B5E8AAB2EF36B980096AEAD /* Exceptions for "Yoyo" folder in "YoyoControlWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AppIntents/QuickCaptureIntent.swift,
+			);
+			target = 2BD2CE672E804014007682AF /* YoyoControlWidgetExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2B9E70B72E0552BC0007DE41 /* Yoyo */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2B4198482EA25F560016B837 /* Exceptions for "Yoyo" folder in "Yoyo" target */,
+				2B5E8AAB2EF36B980096AEAD /* Exceptions for "Yoyo" folder in "YoyoControlWidgetExtension" target */,
+			);
+			path = Yoyo;
+			sourceTree = "<group>";
+		};
+		2B9E70C72E0552BF0007DE41 /* YoyoTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = YoyoTests;
+			sourceTree = "<group>";
+		};
+		2B9E70D12E0552BF0007DE41 /* YoyoUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = YoyoUITests;
+			sourceTree = "<group>";
+		};
+		2BD2CE6D2E804014007682AF /* YoyoControlWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2B4198492EA2601E0016B837 /* Exceptions for "YoyoControlWidget" folder in "YoyoControlWidgetExtension" target */,
+			);
+			path = YoyoControlWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B9E70B22E0552BC0007DE41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B49CFE72EFDAABE0046C43D /* FirebaseAnalytics in Frameworks */,
+				2B49CFE92EFDAABE0046C43D /* FirebaseCrashlytics in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B9E70C12E0552BF0007DE41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B9E70CB2E0552BF0007DE41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BD2CE652E804014007682AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BD2CE6C2E804014007682AF /* SwiftUI.framework in Frameworks */,
+				2BD2CE6A2E804014007682AF /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B14C53F2E1EF02600B378AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BD2CE692E804014007682AF /* WidgetKit.framework */,
+				2BD2CE6B2E804014007682AF /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B9E70AC2E0552BC0007DE41 = {
+			isa = PBXGroup;
+			children = (
+				2B9E70B72E0552BC0007DE41 /* Yoyo */,
+				2B9E70C72E0552BF0007DE41 /* YoyoTests */,
+				2B9E70D12E0552BF0007DE41 /* YoyoUITests */,
+				2BD2CE6D2E804014007682AF /* YoyoControlWidget */,
+				2B14C53F2E1EF02600B378AC /* Frameworks */,
+				2B9E70B62E0552BC0007DE41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B9E70B62E0552BC0007DE41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B9E70B52E0552BC0007DE41 /* Yoyo.app */,
+				2B9E70C42E0552BF0007DE41 /* YoyoTests.xctest */,
+				2B9E70CE2E0552BF0007DE41 /* YoyoUITests.xctest */,
+				2BD2CE682E804014007682AF /* YoyoControlWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B9E70B42E0552BC0007DE41 /* Yoyo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B9E70D82E0552BF0007DE41 /* Build configuration list for PBXNativeTarget "Yoyo" */;
+			buildPhases = (
+				2B9E70D52E0552BF0007DE41 /* Generate Localized Strings */,
+				2B9E70B12E0552BC0007DE41 /* Sources */,
+				2B9E70B22E0552BC0007DE41 /* Frameworks */,
+				2B9E70B32E0552BC0007DE41 /* Resources */,
+				2BD2CE7E2E804016007682AF /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BD2CE7C2E804016007682AF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2B9E70B72E0552BC0007DE41 /* Yoyo */,
+			);
+			name = Yoyo;
+			packageProductDependencies = (
+				2B49CFE62EFDAABE0046C43D /* FirebaseAnalytics */,
+				2B49CFE82EFDAABE0046C43D /* FirebaseCrashlytics */,
+			);
+			productName = Yoyo;
+			productReference = 2B9E70B52E0552BC0007DE41 /* Yoyo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B9E70C32E0552BF0007DE41 /* YoyoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B9E70DB2E0552BF0007DE41 /* Build configuration list for PBXNativeTarget "YoyoTests" */;
+			buildPhases = (
+				2B9E70C02E0552BF0007DE41 /* Sources */,
+				2B9E70C12E0552BF0007DE41 /* Frameworks */,
+				2B9E70C22E0552BF0007DE41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B9E70C62E0552BF0007DE41 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2B9E70C72E0552BF0007DE41 /* YoyoTests */,
+			);
+			name = YoyoTests;
+			packageProductDependencies = (
+			);
+			productName = YoyoTests;
+			productReference = 2B9E70C42E0552BF0007DE41 /* YoyoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B9E70CD2E0552BF0007DE41 /* YoyoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B9E70DE2E0552BF0007DE41 /* Build configuration list for PBXNativeTarget "YoyoUITests" */;
+			buildPhases = (
+				2B9E70CA2E0552BF0007DE41 /* Sources */,
+				2B9E70CB2E0552BF0007DE41 /* Frameworks */,
+				2B9E70CC2E0552BF0007DE41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B9E70D02E0552BF0007DE41 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2B9E70D12E0552BF0007DE41 /* YoyoUITests */,
+			);
+			name = YoyoUITests;
+			packageProductDependencies = (
+			);
+			productName = YoyoUITests;
+			productReference = 2B9E70CE2E0552BF0007DE41 /* YoyoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		2BD2CE672E804014007682AF /* YoyoControlWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BD2CE812E804016007682AF /* Build configuration list for PBXNativeTarget "YoyoControlWidgetExtension" */;
+			buildPhases = (
+				2BD2CE642E804014007682AF /* Sources */,
+				2BD2CE652E804014007682AF /* Frameworks */,
+				2BD2CE662E804014007682AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2BD2CE6D2E804014007682AF /* YoyoControlWidget */,
+			);
+			name = YoyoControlWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = YoyoControlWidgetExtension;
+			productReference = 2BD2CE682E804014007682AF /* YoyoControlWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B9E70AD2E0552BC0007DE41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 2610;
+				TargetAttributes = {
+					2B9E70B42E0552BC0007DE41 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					2B9E70C32E0552BF0007DE41 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 2B9E70B42E0552BC0007DE41;
+					};
+					2B9E70CD2E0552BF0007DE41 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 2B9E70B42E0552BC0007DE41;
+					};
+					2BD2CE672E804014007682AF = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = 2B9E70B02E0552BC0007DE41 /* Build configuration list for PBXProject "Yoyo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 2B9E70AC2E0552BC0007DE41;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				2B49CFE52EFDAABE0046C43D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2B9E70B62E0552BC0007DE41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B9E70B42E0552BC0007DE41 /* Yoyo */,
+				2B9E70C32E0552BF0007DE41 /* YoyoTests */,
+				2B9E70CD2E0552BF0007DE41 /* YoyoUITests */,
+				2BD2CE672E804014007682AF /* YoyoControlWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B9E70B32E0552BC0007DE41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B9E70C22E0552BF0007DE41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B9E70CC2E0552BF0007DE41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BD2CE662E804014007682AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B9E70D52E0552BF0007DE41 /* Generate Localized Strings */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Yoyo/en.lproj/Localizable.strings",
+				"$(SRCROOT)/Yoyo/zh-Hans.lproj/Localizable.strings",
+			);
+			name = "Generate Localized Strings";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(SRCROOT)/Yoyo/Generated/String+Localized.swift",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Generate localized strings\ncd \"$SRCROOT\"\nif [ -f \"scripts/generate_localized_strings.py\" ]; then\n    echo \"Running generate_localized_strings.py...\"\n    /usr/bin/python3 scripts/generate_localized_strings.py\n    echo \"Localized strings generation completed\"\nelse\n    echo \"Warning: generate_localized_strings.py not found\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B9E70B12E0552BC0007DE41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B9E70C02E0552BF0007DE41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B9E70CA2E0552BF0007DE41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BD2CE642E804014007682AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B9E70C62E0552BF0007DE41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B9E70B42E0552BC0007DE41 /* Yoyo */;
+			targetProxy = 2B9E70C52E0552BF0007DE41 /* PBXContainerItemProxy */;
+		};
+		2B9E70D02E0552BF0007DE41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B9E70B42E0552BC0007DE41 /* Yoyo */;
+			targetProxy = 2B9E70CF2E0552BF0007DE41 /* PBXContainerItemProxy */;
+		};
+		2BD2CE7C2E804016007682AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BD2CE672E804014007682AF /* YoyoControlWidgetExtension */;
+			targetProxy = 2BD2CE7B2E804016007682AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2B9E70D62E0552BF0007DE41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 3;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 4588M4TBBY;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTLLINKER_FLAGS = "-fcikernel";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-v";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B9E70D72E0552BF0007DE41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 3;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 4588M4TBBY;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTLLINKER_FLAGS = "-fcikernel";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-v";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B9E70D92E0552BF0007DE41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = Yoyo/Yoyo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_TEAM = 9BQQUBD776;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Yoyo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "YOYO Camera";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
+				INFOPLIST_KEY_NSCameraUsageDescription = "YOYO needs access to the camera to capture photos and record videos.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "YOYO needs access to your location to add geographic location tags to your photos (optional feature).";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "YOYO needs access to the microphone to record audio for videos.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "YOYO needs access to your photo library to save your captured photos to the YOYO album.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "YOYO needs access to your photo library to save and manage your captured photos. We will create a dedicated YOYO album in your system photos to organize your photos.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3;
+				MTL_COMPILER_FLAGS = "-fcikernel";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.day1-labs.yoyo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2B9E70DA2E0552BF0007DE41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = Yoyo/Yoyo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_TEAM = 9BQQUBD776;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Yoyo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "YOYO Camera";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
+				INFOPLIST_KEY_NSCameraUsageDescription = "YOYO needs access to the camera to capture photos and record videos.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "YOYO needs access to your location to add geographic location tags to your photos (optional feature).";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "YOYO needs access to the microphone to record audio for videos.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "YOYO needs access to your photo library to save your captured photos to the YOYO album.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "YOYO needs access to your photo library to save and manage your captured photos. We will create a dedicated YOYO album in your system photos to organize your photos.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3;
+				MTL_COMPILER_FLAGS = "-fcikernel";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.day1-labs.yoyo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		2B9E70DC2E0552BF0007DE41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9BQQUBD776;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.day1-labs.YoyoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yoyo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Yoyo";
+			};
+			name = Debug;
+		};
+		2B9E70DD2E0552BF0007DE41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9BQQUBD776;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.day1-labs.YoyoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yoyo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Yoyo";
+			};
+			name = Release;
+		};
+		2B9E70DF2E0552BF0007DE41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9BQQUBD776;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.day1-labs.YoyoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Yoyo;
+			};
+			name = Debug;
+		};
+		2B9E70E02E0552BF0007DE41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9BQQUBD776;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.day1-labs.YoyoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Yoyo;
+			};
+			name = Release;
+		};
+		2BD2CE7F2E804016007682AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9BQQUBD776;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YoyoControlWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = YoyoControlWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.day1-labs.yoyo.control-widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BD2CE802E804016007682AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9BQQUBD776;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YoyoControlWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = YoyoControlWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.day1-labs.yoyo.control-widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B9E70B02E0552BC0007DE41 /* Build configuration list for PBXProject "Yoyo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E70D62E0552BF0007DE41 /* Debug */,
+				2B9E70D72E0552BF0007DE41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B9E70D82E0552BF0007DE41 /* Build configuration list for PBXNativeTarget "Yoyo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E70D92E0552BF0007DE41 /* Debug */,
+				2B9E70DA2E0552BF0007DE41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B9E70DB2E0552BF0007DE41 /* Build configuration list for PBXNativeTarget "YoyoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E70DC2E0552BF0007DE41 /* Debug */,
+				2B9E70DD2E0552BF0007DE41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B9E70DE2E0552BF0007DE41 /* Build configuration list for PBXNativeTarget "YoyoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E70DF2E0552BF0007DE41 /* Debug */,
+				2B9E70E02E0552BF0007DE41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BD2CE812E804016007682AF /* Build configuration list for PBXNativeTarget "YoyoControlWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BD2CE7F2E804016007682AF /* Debug */,
+				2BD2CE802E804016007682AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2B49CFE52EFDAABE0046C43D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = exactVersion;
+				version = 12.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2B49CFE62EFDAABE0046C43D /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2B49CFE52EFDAABE0046C43D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		2B49CFE82EFDAABE0046C43D /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2B49CFE52EFDAABE0046C43D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2B9E70AD2E0552BC0007DE41 /* Project object */;
+}
